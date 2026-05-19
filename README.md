@@ -2,6 +2,7 @@
 
 **Digital Avatar & Orchestrator** | Local-First AI Infrastructure | Open-Source Advocate
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Maurice%20Jobst-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/mauricejobst/)
 ![KrazyKraut System Diagram](https://img.shields.io/badge/Architecture-Distributed%20Local%20AI-brightgreen)
 ![Status](https://img.shields.io/badge/Status-Active%20Development-blue)
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
@@ -13,6 +14,11 @@
 I'm a systems engineer and AI infrastructure specialist focused on **local-first, privacy-respecting AI automation**. My work spans distributed systems, LLM orchestration, and open-source tooling.
 
 Currently building **KrazyKraut** — a federated agentic workspace running on a two-node setup (Apple M5 Max + Ubuntu NUC) with zero cloud LLM dependencies. The system coordinates multiple autonomous agents for e-commerce automation, document ingestion, and knowledge synthesis.
+
+**Connect with me**: 
+- 💼 **LinkedIn**: https://www.linkedin.com/in/mauricejobst/
+- 📧 **Email**: maurice.jobst@gmail.com
+- 🌍 **Location**: Germany 🇩🇪
 
 ---
 
@@ -82,12 +88,14 @@ Personal finance automation and business workflow orchestration.
 
 ---
 
-## 🌐 Let's Connect
+## 🌐 Connect With Me
 
-- **GitHub**: You're here! 👋
-- **Email**: maurice.jobst@gmail.com
-- **Location**: Germany 🇩🇪
-- **Years of Experience**: Since 2019
+| Platform | Link |
+|----------|------|
+| **LinkedIn** | https://www.linkedin.com/in/mauricejobst/ |
+| **Email** | maurice.jobst@gmail.com |
+| **GitHub** | https://github.com/maurice-jobst |
+| **Location** | Germany 🇩🇪 |
 
 ---
 
@@ -118,12 +126,27 @@ I believe in:
 - Consulting on agentic system design
 - Open-source contributions (especially ML tooling)
 - Knowledge exchange on distributed systems
+- Speaking engagements on AI infrastructure & privacy
+
+---
+
+## 📈 Career Highlights
+
+- **Systems Engineer** specializing in distributed AI infrastructure
+- **Privacy Advocate**: All personal/business data stays local (zero third-party APIs)
+- **Open Source**: Contributed to AI tooling and infrastructure projects
+- **Full Stack**: Mac/Linux, Python, Docker, SQL, shell scripting
+- **Architecture**: Designed federated workspaces for autonomous agents
 
 ---
 
 <div align="center">
 
 **Built with ❤️ in Germany | Powered by Gemma 4 + Apple Silicon**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Maurice%20Jobst-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mauricejobst/)
+[![GitHub](https://img.shields.io/badge/GitHub-maurice--jobst-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maurice-jobst)
+[![Email](https://img.shields.io/badge/Email-maurice.jobst%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maurice.jobst@gmail.com)
 
 *Last updated: May 2026*
 
