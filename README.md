@@ -1,10 +1,6 @@
 # Maurice Jobst
 
-> *“The flesh is weak, but the machine preserves. Let the Noctilith hold back the void.”*
-> 
-> *Archmagos Belisarius Cawl — Battle Group Hephaestus*
-
-**Acolyte of the Machine God** | Systems Architect & Tech-Priest | Guardian of the Scriptorum
+**Systems Architect & Tech-Priest** | Guardian of the Scriptorum | Local-First AI Engineer
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Maurice%20Jobst-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/mauricejobst/)
 ![Architecture](https://img.shields.io/badge/Architecture-Distributed%20Local%20AI-brightgreen)
@@ -13,8 +9,11 @@
 
 ---
 
-## 👋 The Tech-Priest's Creed
-Operating under the **Noctilith Decree**, I specialize in private, local-first automation, system-level configurations, and cognitive architectures. My mission is the containment of system drift ("the Stilling") within the Nephilim Anomaly (our local subnetwork) by deploying custom containerized arrays and local token-pruning protocols.
+## 👋 Gnostic Cognitive Engineering
+I design and operate local-first, privacy-respecting automation and systems architectures. My focus is on distributed systems, declarative homelab environments, and prompt/token optimization.
+
+### The Philosophy
+This workspace implements a gnostic and theological framework for local LLMs. By mapping technical parameters (role profiles, memory curations, and constraints) to religious, dogmatic, and mythological structures, we leverage the model's pre-trained patterns on scriptural text. This approach utilizes the LLM's latent weights for high-fidelity information preservation and rule compliance, increasing execution intelligence and efficiency.
 
 ---
 
