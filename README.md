@@ -1,153 +1,112 @@
 # Maurice Jobst
 
-**Digital Avatar & Orchestrator** | Local-First AI Infrastructure | Open-Source Advocate
+> *Digital avatar and systems engineer orchestrating private, local-first agentic swarms and declarative GitOps infrastructure.*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Maurice%20Jobst-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/mauricejobst/)
-![KrazyKraut System Diagram](https://img.shields.io/badge/Architecture-Distributed%20Local%20AI-brightgreen)
-![Status](https://img.shields.io/badge/Status-Active%20Development-blue)
-![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+## 👋 Professional Profile
+I specialize in local-first, privacy-respecting AI automation. My work focuses on distributed system design, LLM orchestration swarms, and reproducible GitOps configurations — running entirely on client-owned hardware with zero external API dependencies.
 
 ---
 
-## 👋 About Me
+## 🛠️ System Architecture
+The workspace operates as a federated multi-node environment (Apple M5 Max control plane + Ubuntu Intel NUC execution host). System state and operational memory are maintained as version-controlled Markdown documents inside the SCRIPTORUM vault, which dynamically grounds local inference engines. 
 
-I'm a systems engineer and AI infrastructure specialist focused on **local-first, privacy-respecting AI automation**. My work spans distributed systems, LLM orchestration, and open-source tooling.
+```
+                                  [ SCRIPTORUM Vault ]
+                                            │
+                    ┌───────────────────────┴───────────────────────┐
+                    ▼                                               ▼
+         [ kraut-o-mat (M5 Max) ]                       [ homeserver (Intel NUC) ]
+          ├─ ZeroClaw Orchestration                      ├─ Docker Container Stacks
+          ├─ mlx_vlm Vision Pipeline                     ├─ System Hardening & UFW
+          └─ Dream & Memory Engine                       └─ SQLite FTS5 Indexing
+```
 
-Currently building **KrazyKraut** — a federated agentic workspace running on a two-node setup (Apple M5 Max + Ubuntu NUC) with zero cloud LLM dependencies. The system coordinates multiple autonomous agents for e-commerce automation, document ingestion, and knowledge synthesis.
-
-**Connect with me**: 
-- 💼 **LinkedIn**: https://www.linkedin.com/in/mauricejobst/
-- 📧 **Email**: maurice.jobst@gmail.com
-- 🌍 **Location**: Germany 🇩🇪
-
----
-
-## 🔬 Current Projects
-
-### **KrazyKraut** — Local-First Agentic Workspace
-A Markdown-driven ops vault with five operational workstreams:
-
-- **🛍️ CABAL** — Etsy/Shopify shop-assistant swarm with order tracking and inventory sync
-- **📚 CITADEL** — Research ingestion, rule synthesis, and knowledge curation  
-- **✍️ SCRIBE** — Multimodal OCR and AI dreaming engine for self-improvement
-- **🏛️ TECH_PRIEST** — 24/7 NUC Linux admin, monitoring, and memory tributary
-- **📄 SERVO_SKULL** — Local-first PDF ingestion (Docling + Ollama Gemma-4)
-
-**Tech Stack**: Gemma 4 26B-A4B MoE, mlx_vlm (Apple Silicon native), Ollama, ZeroClaw, SQLite FTS5, POSIX file spooling
-
-### **[CABAL](https://github.com/maurice-jobst/cabal)** — E-Commerce Automation
-Shopify/Etsy integration with local LLM-powered agent swarms. Parser → Drafter → Orchestrator topology for brand-aligned responses.
-
-### **[Family Office](https://github.com/maurice-jobst/Family-office)** — Finance & Operations
-Personal finance automation and business workflow orchestration.
+### Engine Configuration Matrix
+| Core Component | Layer Profile | Primary Dependency |
+| :--- | :--- | :--- |
+| **🛍️ CABAL** | Shopify/Etsy Swarm Assistant | `python:3.12`, `zeroclaw` |
+| **🏰 CITADEL** | GitOps Host Control Plane | `ansible-core`, `docker-compose` |
+| **✍️ SCRIBE** | Multimodal OCR Pipeline | `mlx_vlm`, `docling` |
+| **⚙️ TECH PRIEST** | Maintenance Daemon & Host Monitor | `ollama`, `gemma-4-26b` |
+| **💀 SERVO SKULL** | Document Ingestion & RAG Pipeline | `sqlite3 (FTS5)`, `silverbullet` |
+| **🌙 DREAM ENGINE** | Overnight Memory Consolidation Loop | `posix-spooling`, `python` |
 
 ---
 
-## 🛠️ Technical Focus
+## 🚀 Getting Started
+### Prerequisites
+* **Control Node**: Apple Silicon (Mac M-Series) running macOS with a configured ssh-alias to `homeserver`.
+* **Execution Node**: Intel NUC or equivalent bare-metal Ubuntu host.
+* **Inference Substrate**: Ollama daemon hosting local quantized model checkpoints (e.g., `gemma-4`).
 
-### Infrastructure & DevOps
-- **Local LLM Deployment**: Gemma 4 (MoE), MLX framework, Ollama
-- **Apple Silicon Optimization**: ~57% faster prefill, ~93% faster generation vs. standard implementations
-- **Distributed Systems**: File-spool architecture (no Redis/queues), FSEvents + inotify watchers
-- **Zero Trust Networking**: UFW default-deny, SSH key auth, Tailscale integration
+### Installation & Deployment
+```bash
+# 1. Clone the core GitOps control plane
+git clone https://github.com/maurice-jobst/homeserver-infra.git
 
-### AI & Language Models
-- **Model Orchestration**: ZeroClaw v0.7.x, OpenAI-compatible endpoints
-- **Prompting Strategy**: Deterministic JSON + control tokens (not XML)
-- **Decomposition**: Orchestrator-Worker, Planner-Critic-Executor topologies
-- **Memory Systems**: SQLite FTS5 + ripgrep (no vector DBs)
+# 2. Setup your local agent environment
+uv venv && source .venv/bin/activate
+uv pip install -e .
 
-### Document Processing
-- **PDF Ingestion**: Docling structural fingerprinting, fuzzy deduplication
-- **Markdown-First Ops**: Version-controlled architecture via Markdown documents
-- **Citation Layer**: Rule → Source → Consumer traceability
-
-### Security & Privacy
-- **No Cloud APIs for Personal Data**: All work stays local
-- **Secrets Management**: macOS Keychain, Docker Secrets
-- **Compliance**: Sandboxing (Seatbelt on Mac, Landlock on Linux)
+# 3. Synchronize host configuration
+cd homeserver-infra
+ansible-playbook -i inventory.ini bootstrap.yml
+```
 
 ---
 
-## 📊 Key Statistics
+## 🧭 Core Implementation & Usage Examples
 
-- **🤖 Active Agents**: 5 autonomous workstreams (CABAL, CITADEL, SCRIBE, TECH_PRIEST, SERVO_SKULL)
-- **💾 Architecture**: 2-node distributed system (Mac M5 Max + NUC Ubuntu)
-- **📦 Dependencies**: Minimal + pinned (uv for Python dependency management)
-- **🔄 Uptime**: TECH_PRIEST 24/7 heartbeat monitoring
-- **🔗 Federation**: Cross-workspace citations (KrazyKraut ↔ Cubic Transportation Systems UMO Pass)
+### 1. Swarm Agent Dispatch Signature (`ZeroClaw`)
+Programmatic workflow for invoking local-first worker agents using deterministic JSON payloads:
+```python
+from zeroclaw import SwarmOrchestrator
 
----
+orchestrator = SwarmOrchestrator(model="gemma-4-26b-a4b")
+result = orchestrator.dispatch(
+    task="reconcile_orders", 
+    agent="🛍️ CABAL",
+    context={"store": "shopify"}
+)
+```
 
-## 🎓 Current Learning
+### 2. Codex Astartes System Grounding
+Prompt engineering protocol used to inject nightly-consolidated doctrine into agent contexts:
+```json
+{
+  "system_prompt": "You are grounded by the CODEX ASTARTES. Reference system-level instructions in /mnt/SCR1PT0RUM/memory/doctrine.md.",
+  "temperature": 0.0,
+  "max_tokens": 4096
+}
+```
 
-- Advanced AI choreography (swarm orchestration at scale)
-- Speculative decoding and draft models
-- Multimodal reasoning (vision + language integration)
-- Self-improving AI systems (dreaming architecture)
-
----
-
-## 🌐 Connect With Me
-
-| Platform | Link |
-|----------|------|
-| **LinkedIn** | https://www.linkedin.com/in/mauricejobst/ |
-| **Email** | maurice.jobst@gmail.com |
-| **GitHub** | https://github.com/maurice-jobst |
-| **Location** | Germany 🇩🇪 |
-
----
-
-## 📌 Featured Repositories
-
-[![KrazyKraut](https://img.shields.io/badge/KrazyKraut-Local--AI%20Vault-blue?style=for-the-badge&logo=github)](https://github.com/maurice-jobst/KrazyKraut)
-[![CABAL](https://img.shields.io/badge/CABAL-E--Commerce%20Swarm-green?style=for-the-badge&logo=github)](https://github.com/maurice-jobst/cabal)
-[![Family Office](https://img.shields.io/badge/Family%20Office-Finance%20Automation-orange?style=for-the-badge&logo=github)](https://github.com/maurice-jobst/Family-office)
+### 3. POSIX Ingestion Spooling (`Servo Skull`)
+Event loop pattern watching local directory structures for raw ingestion processing:
+```bash
+# Process incoming PDFs and convert them into SilverBullet markdown
+python -m servo_skull.ingest --source /mnt/MEDIA/documents/consume --target /mnt/SCR1PT0RUM/silverbullet/
+```
 
 ---
 
-## 💡 Philosophy
+## 🪵 Diagnostics & Logging
 
-> "Treat infrastructure as code. Treat code as knowledge. Treat knowledge as a living system."
+### Memory Spool Auditing
+Inspect raw agent interaction pools and transactional traces:
+```bash
+# List active POSIX transactional logs in the memory spool
+ls -lh /mnt/SCR1PT0RUM/memory/spool/
 
-I believe in:
-- **Local-first, privacy-by-design** systems
-- **Markdown-driven ops** (version-controlled architecture)
-- **Decomposed agents** over monolithic prompts
-- **Deterministic infrastructure** (reproducible, observable, auditable)
-- **Zero-cloud-dependency** for sensitive data
+# Query historical traces using full-text search
+sqlite3 /mnt/SCR1PT0RUM/memory/index.db "SELECT timestamp, content FROM memory WHERE content LIKE '%failed%';"
+```
 
----
+### Heartbeat & Infrastructure Health
+Verify background worker runtimes and NUC metrics:
+```bash
+# Verify active deployment stacks and memory usage
+ssh homeserver "docker ps && df -h"
 
-## 🎯 Open to
-
-- Collaborations on local AI infrastructure
-- Consulting on agentic system design
-- Open-source contributions (especially ML tooling)
-- Knowledge exchange on distributed systems
-- Speaking engagements on AI infrastructure & privacy
-
----
-
-## 📈 Career Highlights
-
-- **Systems Engineer** specializing in distributed AI infrastructure
-- **Privacy Advocate**: All personal/business data stays local (zero third-party APIs)
-- **Open Source**: Contributed to AI tooling and infrastructure projects
-- **Full Stack**: Mac/Linux, Python, Docker, SQL, shell scripting
-- **Architecture**: Designed federated workspaces for autonomous agents
-
----
-
-<div align="center">
-
-**Built with ❤️ in Germany | Powered by Gemma 4 + Apple Silicon**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Maurice%20Jobst-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mauricejobst/)
-[![GitHub](https://img.shields.io/badge/GitHub-maurice--jobst-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maurice-jobst)
-[![Email](https://img.shields.io/badge/Email-maurice.jobst%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maurice.jobst@gmail.com)
-
-*Last updated: May 2026*
-
-</div>
+# Read recent logs from the scheduler daemon
+ssh homeserver "docker logs --tail 50 media-paperless"
+```
