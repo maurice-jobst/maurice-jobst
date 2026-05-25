@@ -1,14 +1,31 @@
 # Maurice Jobst
 
-> *Digital avatar and systems engineer orchestrating private, local-first agentic infrastructure and cognitive memory loops.*
+> *“There is no truth in flesh, only betrayal.”*
+> 
+> *“There is no strength in flesh, only weakness.”*
+> 
+> *“There is no constancy in flesh, only decay.”*
+> 
+> *“There is no certainty in flesh but death.”*
+> 
+> *— The Credo Omnissiah*
 
-## 👋 Professional Profile
-I specialize in local-first, privacy-respecting automation and systems architecture. My work focuses on distributed system design, declarative homelab environments, and prompt/token optimization — running entirely on client-owned hardware with zero cloud dependencies.
+**Acolyte of the Machine God** | Systems Architect & Tech-Priest | Guardian of the Scriptorum
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Maurice%20Jobst-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/mauricejobst/)
+![Architecture](https://img.shields.io/badge/Architecture-Distributed%20Local%20AI-brightgreen)
+![Status](https://img.shields.io/badge/Status-Active%20Development-blue)
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
 
 ---
 
-## 🛠️ System Architecture
-The workspace operates as a federated multi-node environment (Apple M5 Max control plane + Ubuntu Intel NUC execution host). System state and operational memory are maintained as version-controlled Markdown documents inside the SCRIPTORUM vault, which dynamically grounds local inference engines. 
+## 👋 The Tech-Priest's Creed
+I specialize in private, local-first automation and system-level architectures. My work focuses on distributed environments, declarative homelab infrastructure, and token optimization protocols — ensuring all computations run on hardware I own, with data that never leaves my control.
+
+---
+
+## 🛠️ The Forge: Distributed Noosphere Architecture
+The workspace operates as a federated multi-node environment (Apple M5 Max control plane `kraut-o-mat` + Ubuntu Intel NUC execution host `homeserver`). System states and operational memory are maintained as version-controlled Markdown documents inside the SCRIPTORUM vault, which dynamically grounds local inference engines. 
 
 ```
                                   [ SCRIPTORUM Vault ]
@@ -32,17 +49,24 @@ The workspace operates as a federated multi-node environment (Apple M5 Max contr
 
 ---
 
-## 🔮 Active Rites & Roadmaps
+## 🔮 Sanctioned Rites & Active Construction Tasks (To-Do)
+We welcome contributions to the Forge. Check the following list of active engineering tasks to help optimize our stack:
 
-### 💀 Servo Skull (Ready & Operational)
+### 💀 Servo-Skull (Ready & Operational)
 A local-first document ingestion pipeline that converts raw files into chunked, tagged SilverBullet Markdown.
 * **Status**: Deployed and utilized daily in enterprise production workloads as part of the `_C41` workspace environment.
 * **Engine**: The first production integration running local Ollama instances spun up with a dedicated system "soul" (specialized orchestration profile) via a Nanoclaw/Zeroclaw execution substrate.
+* **Active Tasks**:
+  - [ ] **[Skull-Task-001]** Implement support for batch OCR processing using MLX vision models.
+  - [ ] **[Skull-Task-002]** Optimize chunking heuristics to better identify structural layout markers in documents.
 
 ### ⚙️ Tech Priest (Active Development)
 An autonomous host administration, diagnostics, and self-healing daemon.
 * **Status**: Next up for core implementation.
 * **Engine**: Will utilize Nanoclaw/Zeroclaw integration to spin up a containerized local Ollama instance running with a specialized administrative "soul" to audit Docker health, prune resources, and monitor hardware bounds.
+* **Active Tasks**:
+  - [ ] **[Priest-Task-001]** Write the orchestration loop using `nanoclaw` to bind Ollama context.
+  - [ ] **[Priest-Task-002]** Develop the system-health parsing skills (handling disk space, container restarts, log pruning).
 
 ### 🌙 Dream Engine (WIP / Conceptual)
 An overnight memory consolidation pipeline designed to distill transactional daily logs and historical FTS5 traces.
@@ -50,10 +74,16 @@ An overnight memory consolidation pipeline designed to distill transactional dai
   * **Tzeentch & Slaanesh**: Promote synthesis and evolution of new cognitive associations.
   * **Nurgle & Khorne**: Demote, prune, and overwrite obsolete memory patterns.
   * **Codex Astartes**: A final distillation phase where consolidated principles are written as highly immutable guidelines. Once committed, guidelines are highly resistant to overrides or deletion.
+* **Active Tasks**:
+  - [ ] **[Dream-Task-001]** Define the sqlite memory ingestion schema.
+  - [ ] **[Dream-Task-002]** Map the scoring heuristics for the promotion/demotion matrix.
 
 ### ⚡ Binaric Chant (Active Development)
 A prompt and payload compression method designed to compress model input tokens and maximize local context windows.
 * **Engine**: Follows the objective of [caveman_40k](https://github.com/maurice-jobst/caveman_40k) (saving ~65% of tokens by implementing high-density language structures) but implements a programmatic binaric serialization approach to optimize processing speed and layout.
+* **Active Tasks**:
+  - [ ] **[Chant-Task-001]** Implement parser script for converting plain text to binaric chant syntax.
+  - [ ] **[Chant-Task-002]** Benchmark token savings vs compression loss on local Ollama models.
 
 ---
 
