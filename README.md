@@ -122,7 +122,7 @@ sqlite3 /mnt/SCR1PT0RUM/memory/index.db "SELECT timestamp, content FROM memory W
 
 [![homeserver-infra](https://img.shields.io/badge/homeserver--infra-GitOps%20Control%20Plane-red?style=for-the-badge&logo=github)](https://github.com/maurice-jobst/homeserver-infra)
 [![caveman_40k](https://img.shields.io/badge/caveman__40k-Token%20Compressor-blue?style=for-the-badge&logo=github)](https://github.com/maurice-jobst/caveman_40k)
-[![Family Office](https://img.shields.io/badge/Family%20Office-Finance%20Automation-orange?style=for-the-badge&logo=github)](https://github.com/maurice-jobst/Family-office)
+[![lexmechanic](https://img.shields.io/badge/lexmechanic-Scoping%20Engine-purple?style=for-the-badge&logo=github)](https://github.com/maurice-jobst/lexmechanic)
 
 ---
 
