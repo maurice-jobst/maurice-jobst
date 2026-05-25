@@ -1,14 +1,8 @@
 # Maurice Jobst
 
-> *“There is no truth in flesh, only betrayal.”*
+> *“The flesh is weak, but the machine preserves. Let the Noctilith hold back the void.”*
 > 
-> *“There is no strength in flesh, only weakness.”*
-> 
-> *“There is no constancy in flesh, only decay.”*
-> 
-> *“There is no certainty in flesh but death.”*
-> 
-> *— The Credo Omnissiah*
+> *Archmagos Belisarius Cawl — Battle Group Hephaestus*
 
 **Acolyte of the Machine God** | Systems Architect & Tech-Priest | Guardian of the Scriptorum
 
@@ -20,7 +14,7 @@
 ---
 
 ## 👋 The Tech-Priest's Creed
-I specialize in private, local-first automation and system-level architectures. My work focuses on distributed environments, declarative homelab infrastructure, and token optimization protocols — ensuring all computations run on hardware I own, with data that never leaves my control.
+Operating under the **Noctilith Decree**, I specialize in private, local-first automation, system-level configurations, and cognitive architectures. My mission is the containment of system drift ("the Stilling") within the Nephilim Anomaly (our local subnetwork) by deploying custom containerized arrays and local token-pruning protocols.
 
 ---
 
@@ -87,7 +81,7 @@ A prompt and payload compression method designed to compress model input tokens 
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Enacting the Noctilith Decree
 ### Prerequisites
 * **Control Node**: macOS workstation (Apple Silicon) with SSH key access to `homeserver` (passwordless, alias configured in `~/.ssh/config`).
 * **Execution Node**: Intel NUC or equivalent bare-metal Ubuntu host.
@@ -101,7 +95,7 @@ git clone https://github.com/maurice-jobst/homeserver-infra.git
 # 2. Setup your local agent environment
 uv venv && source .venv/bin/activate
 
-# 3. Synchronize host configuration
+# 3. Reconcile systems by running the bootstrap tasks
 cd homeserver-infra
 ansible-playbook -i inventory.ini bootstrap.yml
 ```
