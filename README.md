@@ -52,6 +52,10 @@ A layout-preserving local document ingestion and FTS5 indexing engine that conve
 * **Active Tasks**:
   - [ ] **[Skull-Task-001]** Implement support for batch OCR processing using MLX vision models.
   - [ ] **[Skull-Task-002]** Optimize chunking heuristics to better identify structural layout markers in documents.
+  - [ ] **[Skull-Task-003]** Resolve anti-bot scraping blockages (e.g., status 999 on LinkedIn profiles) using headless scraper fallbacks or reader APIs.
+  - [ ] **[Skull-Task-004]** Optimize context pruning heuristics for local inference to prevent prefill latency lag on massive grounding file directories.
+  - [ ] **[Skull-Task-005]** Enforce Codex Astartes contraction compliance on local models (e.g., Qwen-32b) via targeted system prompts and sampling parameter tuning.
+
 
 ### ⚙️ Tech Priest (Active Development)
 An autonomous host administration, diagnostics, and self-healing daemon.
