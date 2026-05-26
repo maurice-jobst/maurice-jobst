@@ -35,20 +35,20 @@ The workspace operates as a federated multi-node environment (Apple M5 Max contr
 | Core Component | Layer Profile | Primary Dependency |
 | :--- | :--- | :--- |
 | **🏰 CITADEL** | GitOps Host Control Plane | `ansible-core`, `docker-compose` |
-| **💀 SERVO SKULL** | Local Ingestion (Ready & Operational) | `sqlite3 (FTS5)`, `nanoclaw` / `zeroclaw` |
+| **💀 SERVO SKULL** | Local Ingestion & Indexing Engine | `sqlite3 (FTS5)`, `pymupdf4llm`, `markitdown`, `pypdf` (fallback) |
 | **⚙️ TECH PRIEST** | Maintenance Daemon & Host Monitor (Next Up) | `ollama`, `nanoclaw` / `zeroclaw` |
 | **🌙 DREAM ENGINE** | Memory Consolidation (WIP / Conceptual) | `posix-spooling`, `python` |
 | **⚡ BINARIC CHANT** | High-Density Token Compression (WIP) | `python`, `caveman_40k` principles |
 
 ---
 
-## 🔮 Sanctioned Rites & Active Construction Tasks (To-Do)
+## ✙ Sanctioned Rites & Active Construction Tasks (To-Do)
 We welcome contributions to the Forge. Check the following list of active engineering tasks to help optimize our stack:
 
 ### 💀 Servo-Skull (Ready & Operational)
-A local-first document ingestion pipeline that converts raw files into chunked, tagged SilverBullet Markdown.
-* **Status**: Deployed and utilized daily in enterprise production workloads as part of the `_C41` workspace environment.
-* **Engine**: The first production integration running local Ollama instances spun up with a dedicated system "soul" (specialized orchestration profile) via a Nanoclaw/Zeroclaw execution substrate.
+A layout-preserving local document ingestion and FTS5 indexing engine that converts raw documents into chunked, tagged, and queryable Markdown.
+* **Status**: Deployed and modularized across workspace engines (`_LinkedIn` and `_ContentForge`).
+* **Engine**: Incorporates dynamic layout-purifying nodes (integrating `pymupdf4llm` with automatic `pypdf` fallback, and Microsoft `markitdown` for Office/HTML formats) and FTS5 SQLite database groundings. Equipped with automated Ansible and Docker GitOps deployment playbooks for homeserver/Citadel integration.
 * **Active Tasks**:
   - [ ] **[Skull-Task-001]** Implement support for batch OCR processing using MLX vision models.
   - [ ] **[Skull-Task-002]** Optimize chunking heuristics to better identify structural layout markers in documents.
@@ -134,6 +134,6 @@ sqlite3 /mnt/SCR1PT0RUM/memory/index.db "SELECT timestamp, content FROM memory W
 [![GitHub](https://img.shields.io/badge/GitHub-maurice--jobst-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maurice-jobst)
 [![Email](https://img.shields.io/badge/Email-maurice.jobst%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maurice.jobst@gmail.com)
 
-*Last updated: May 2026*
+*Last updated: May 2026 (Servo Skull modular tuning)*
 
 </div>
