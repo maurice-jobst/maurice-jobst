@@ -38,7 +38,7 @@ The workspace operates as a federated multi-node environment (Apple M5 Max contr
 | **💀 SERVO SKULL** | Local Ingestion & Indexing Engine | `sqlite3 (FTS5)`, `pymupdf4llm`, `markitdown`, `pypdf` (fallback) |
 | **⚙️ TECH PRIEST** | Maintenance Daemon & Host Monitor (Next Up) | `ollama`, `nanoclaw` / `zeroclaw` |
 | **🌙 DREAM ENGINE** | Memory Consolidation (WIP / Conceptual) | `posix-spooling`, `python` |
-| **⚡ BINARIC CHANT** | High-Density Token Compression (WIP) | `python`, `caveman_40k` principles |
+| **⚡ BINARIC CHANT** | Three-tier symbolic compression: Saga → Caveman → Glyph (Spec landed, impl pending) | `python`, `caveman_40k` (vendored), Codex Astartes |
 
 ---
 
@@ -75,12 +75,24 @@ An overnight memory consolidation pipeline designed to distill transactional dai
   - [ ] **[Dream-Task-001]** Define the sqlite memory ingestion schema.
   - [ ] **[Dream-Task-002]** Map the scoring heuristics for the promotion/demotion matrix.
 
-### ⚡ Binaric Chant (Active Development)
-A prompt and payload compression method designed to compress model input tokens and maximize local context windows.
-* **Engine**: Follows the objective of [caveman_40k](https://github.com/maurice-jobst/caveman_40k) (saving ~65% of tokens by implementing high-density language structures) but implements a programmatic binaric serialization approach to optimize processing speed and layout.
+### ⚡ Binaric Chant (Design Spec Landed → Implementation Pending)
+A symbolic prompt-compression library that uses anthropological frameworks as the substrate and the Warhammer 40k **Codex Astartes** as the published canonical operational layer. Compression banks on the receiving LLM's cultural prior; the 40k anchor doubles as a tamper-detection canary.
+* **Engine**: Three-tier symbolic pipeline running largest-span-first:
+  * **Tier 3 — NarrativeMatcher**: situations → canonical Sagas (e.g. *"the internet was down for 3h"* → `Saga.SeveredCogitator/III(duration=3h)`). Each Saga is grounded in an anthropological primitive (Turner liminality, van Gennep rites of passage, Eliade eternal return, Ong orality, Lévi-Strauss / Douglas / Campbell / Dumézil).
+  * **Tier 2 — CavemanCompactor**: phrase-level compression via rules vendored from [caveman_40k](https://github.com/maurice-jobst/caveman_40k) (extracted to YAML; no Node runtime at compress-time).
+  * **Tier 1 — GlyphSubstitutor**: lexical compression via faction-organized glyph tables (Mechanicus binaric, Necron hieroglyphic, Aeldari runic) plus stone-age universals (`> , / # * " @`). Glyph legend lives in the Codex preamble — Vertex implicit caching makes it effectively free after first call.
+* **SEAL**: Layered footer (`++ BINARIC CHANT // CODEX/v0.1 // hash=… // canary=Saga.* // echo="…▮▮▮…" ++`). Hash band catches byte-level MITM; canary band catches model-substitution / fine-tune-time tampering by asking the receiver to echo the active Codex rule.
+* **Receivers**: MLX (Gemma 4 26B-A4B MoE via `mlx_vlm.server`) is the default; Vertex Gemini is the cloud target for Antigravity / Gemini CLI workflows. Codex tiering is per-receiver — rules earn *Universal Codex* status only after ratifying on both.
+* **Codex contribution model**: binaric-chant contributes Sagas, Glyphs, and Rites to the existing Codex Astartes at `/mnt/SCR1PT0RUM/_krazykraut/SCRIPTORUM/03_CODEX/codex_astartes.md` via the ratification CLI (`binaric ratify accept` → tech-priest-promote pipeline).
+* **Memory architecture**: `Scriptorum → Warp → Vault → Codex` mirrors the existing Dream Engine cosmology; v0 ships Scriptorum + Codex + ratification tray, Warp/Vault are inert placeholders for the v1 dream cycle.
 * **Active Tasks**:
-  - [ ] **[Chant-Task-001]** Implement parser script for converting plain text to binaric chant syntax.
-  - [ ] **[Chant-Task-002]** Benchmark token savings vs compression loss on local Ollama models.
+  - [ ] **[Chant-Task-001]** Section 4 brainstorm — Receiver Protocol details, eval harness, ratification thresholds.
+  - [ ] **[Chant-Task-002]** Dedicated brainstorm — SEAL glyph syntax + canary-grounding mechanics.
+  - [ ] **[Chant-Task-003]** Write implementation plan (`superpowers:writing-plans`).
+  - [ ] **[Chant-Task-004]** Bootstrap eval harness — pytest fixtures iterating MLX + Vertex receivers; decompressibility metric.
+  - [ ] **[Chant-Task-005]** Seed v0 Codex — 15 canonical Sagas + 4 faction glyph tables + caveman rule extraction.
+  - [ ] **[Chant-Task-006]** Ratification CLI (`binaric ratify {list|show|accept|reject}`, `binaric codex {render|diff}`).
+  - [ ] **[Chant-Task-007]** Wire Scriptorum events into the `_kraut-o-mat` dreaming-engine pipeline for v1 dream-cycle eligibility.
 
 ---
 
