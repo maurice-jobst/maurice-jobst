@@ -28,7 +28,8 @@ The workspace operates as a federated multi-node environment combining edge comp
           [ kraut-o-mat (M5 Max) ]                       [ homeserver (Intel NUC) ]
            ├─ Token Optimization & Coding                 ├─ Docker Container Stacks
            ├─ Nanoclaw / Zeroclaw Orchestration           ├─ System Hardening & UFW
-           └─ Dream & Memory Engine                       └─ SQLite FTS5 Indexing
+           ├─ C⁴¹ TCAI Synthesis (Codices)                ├─ SQLite FTS5 Indexing
+           └─ Binaric Chant (Token Compression)           └─ Dream Engine (4-quadrant consolidation)
 ```
 
 ### Core Production Components
@@ -39,7 +40,8 @@ The workspace operates as a federated multi-node environment combining edge comp
 | **💀 SERVO SKULL** | Layout-Purifying Document Ingestion | Deployed: `sqlite3 (FTS5)`, `pymupdf4llm`, `markitdown` | Structural chunking and fast local semantic retrieval for sovereign document vaults. |
 | **⚡ BINARIC CHANT** | Three-tier symbolic compression: Saga → Caveman → Glyph | **v0.1.0 Operational**: `python`, `transformers`, `tenacity` | **65%+ token savings** and cryptographically sealed prompt verification. |
 | **⚙️ TECH PRIEST** | Autonomous Maintenance Daemon | Under active construction: `ollama`, `nanoclaw` | Self-healing container environments and automated resource cleanup. |
-| **🌙 DREAM ENGINE** | Heuristic Memory Consolidation | Design spec finalized: `posix-spooling`, `sqlite` | Long-term distillation of transactional logs into structured operational guidelines. |
+| **🌙 DREAM ENGINE** | 4-Quadrant Codex → BDD Backlog Synthesis (CITADEL-hosted) | Design spec finalized: `posix-spooling`, `sqlite`; consumes C⁴¹ codices | Promotion/demotion of rules across Chaos God quadrants distills domain codices into sprint-ready BDD backlogs. |
+| **🔬 C⁴¹ TCAI** | Deterministic synthesis engine (extract → ground → markdown → editorial codex) | **v1.1.0 Operational**: `python`, `uv`, `ollama`, `pydantic` | Federation upstream: produces domain codices (e.g., debt-recovery v1.1 — 33 rules) for downstream CITADEL Dream Engine consumption. |
 
 ---
 
@@ -66,6 +68,12 @@ Integration models and strategical architectures for transit payment infrastruct
 * **Scope**: Technical specifications and payment schemas aligning with **Visa Contactless Transit (MTT)** and **Mastercard Transit Implementation Guidelines**.
 * **Status**: Deployed in production scoping folders.
 
+### 🔬 [c41-tcai-engine](https://github.com/maurice-jobst/c41-tcai-engine)
+The federation's deterministic-first synthesis pipeline:
+* **Mechanism**: Three-stage pipeline (extract → ground → markdown) producing high-fidelity domain codices from heterogeneous source documents. Editorial codex curation on top of grounded GapAnalyses with three machine-checkable invariants (regex compliance, source-cite coverage, section presence).
+* **Federation contract**: C⁴¹ does deterministic synthesis; CITADEL's Dream Engine consumes the produced codex for 4-quadrant backlog generation. C⁴¹ terminates at the codex.
+* **Status**: **v1.1.0 Released** — debt-recovery domain codex (33 rules, 5 sections) shipped with full operational runbook and engine v2.0 roadmap.
+
 ---
 
 ## ✙ Active Construction Tasks
@@ -74,7 +82,7 @@ Integration models and strategical architectures for transit payment infrastruct
 - [x] **[Chant-Task-002]** Implement three-band SEAL validation and heresy detection.
 - [x] **[Chant-Task-003]** Implement CLI and Scriptorum logging.
 - [ ] **[Priest-Task-001]** Technical implementation of autonomous self-healing loops for local daemon processes.
-- [ ] **[Dream-Task-001]** Implement sqlite-based consolidation heuristic running four-quadrant (Tzeentch/Slaanesh/Nurgle/Khorne) distillation.
+- [ ] **[Dream-Task-001]** Implement sqlite-based 4-quadrant (Tzeentch/Slaanesh/Nurgle/Khorne) consolidation in CITADEL, consuming C⁴¹ codices (federation handoff 2026-05-28).
 
 ---
 
@@ -107,6 +115,6 @@ ansible-playbook -i inventory.ini bootstrap.yml
 [![GitHub](https://img.shields.io/badge/GitHub-maurice--jobst-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maurice-jobst)
 [![Email](https://img.shields.io/badge/Email-maurice.jobst%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maurice.jobst@gmail.com)
 
-*Last updated: May 2026 (Chant v0.1.0 Release)*
+*Last updated: 28 May 2026 (C⁴¹ TCAI v1.1.0 Release — debt-recovery codex shipped; dreaming → CITADEL federation handoff)*
 
 </div>
