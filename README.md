@@ -10,7 +10,7 @@
 ---
 
 ## 🏛️ Sovereign Engineering: Local-First AI for B2B & B2G
-I design and deploy secure, air-gapped, and privacy-preserving automation systems. My focus is on distributed systems, local-first LLM orchestrations, high-fidelity prompt compression pipelines, and idempotent infrastructure provisioning. 
+I design and deploy secure, air-gapped, and privacy-preserving automation systems. My focus is on distributed systems, local-first LLM orchestrations, high-fidelity prompt compression pipelines, and idempotent infrastructure provisioning.
 
 ### Systems Philosophy
 By mapping technical states to highly structured semantic schemas (e.g. priors and canons), we anchor LLM reasoning to predictable, low-latency, and audit-compliant patterns. This hybrid approach enables enterprise-grade accuracy, massive context cost reductions, and absolute data sovereignty—ideal for highly regulated B2B and public sector (B2G) deployments.
@@ -18,7 +18,7 @@ By mapping technical states to highly structured semantic schemas (e.g. priors a
 ---
 
 ## 🛠️ The Forge: Sovereign Noosphere Architecture
-The workspace operates as a federated multi-node environment combining edge computing (Apple M-series Silicon control plane `kraut-o-mat`) and bare-metal Ubuntu hosts (`homeserver`), aligned dynamically via GitOps and structured memory pools.
+The workspace operates as a federated two-node environment combining an Apple M-series Silicon control plane (`kraut-o-mat`) and a bare-metal Ubuntu host (`homeserver`), aligned dynamically via **GitOps**: code moves by git, never by file-sync, and every change round-trips through a version-controlled control plane before it touches the substrate.
 
 ```
                                   [ SCRIPTORUM Vault ]
@@ -26,9 +26,9 @@ The workspace operates as a federated multi-node environment combining edge comp
                     ┌───────────────────────┴───────────────────────┐
                     ▼                                               ▼
           [ kraut-o-mat (M5 Max) ]                       [ homeserver (Intel NUC) ]
-           ├─ Token Optimization & Coding                 ├─ Docker Container Stacks
-           ├─ Nanoclaw / Zeroclaw Orchestration           ├─ System Hardening & UFW
-           ├─ C⁴¹ TCAI Synthesis (Codices)                ├─ SQLite FTS5 Indexing
+           ├─ Agentic Orchestration (Claude · zeroclaw)   ├─ Isolated Docker Stacks (3 networks)
+           ├─ MLX-accelerated Ollama (Apple Silicon)      ├─ System Hardening & UFW
+           ├─ C⁴¹ TCAI Synthesis (Codices)                ├─ Private Gitea Origin + SQLite FTS5
            └─ Binaric Chant (Token Compression)           └─ Dream Engine (4-quadrant consolidation)
 ```
 
@@ -36,43 +36,60 @@ The workspace operates as a federated multi-node environment combining edge comp
 
 | Component | Architecture | Production State / Dependency | B2B/B2G Value |
 | :--- | :--- | :--- | :--- |
-| **🏰 CITADEL** | GitOps Host Control Plane | Deployed: `ansible-core`, `docker-compose` | Immutable, repeatable system setups with zero manual configuration. |
+| **🏰 CITADEL** | GitOps Host Control Plane | Deployed: `ansible-core`, `docker-compose`, `sops`+`age`, `gitea` | Immutable, repeatable system setups with **age-encrypted secrets committed in-repo** (the key never leaves the control plane) and a sovereign private git origin. |
 | **💀 SERVO SKULL** | Layout-Purifying Document Ingestion | Deployed: `sqlite3 (FTS5)`, `pymupdf4llm`, `markitdown` | Structural chunking and fast local semantic retrieval for sovereign document vaults. |
 | **⚡ BINARIC CHANT** | Three-tier symbolic compression: Saga → Caveman → Glyph | **v0.1.0 Operational**: `python`, `transformers`, `tenacity` | **65%+ token savings** and cryptographically sealed prompt verification. |
-| **⚙️ TECH PRIEST** | Autonomous Maintenance Daemon | Under active construction: `ollama`, `nanoclaw` | Self-healing container environments and automated resource cleanup. |
+| **⚙️ TECH PRIEST** | Autonomous Maintenance Daemon | Under active construction: `python`, `ollama` | Self-healing container environments and automated resource cleanup. |
 | **🌙 DREAM ENGINE** | 4-Quadrant Codex → BDD Backlog Synthesis (CITADEL-hosted) | Design spec finalized: `posix-spooling`, `sqlite`; consumes C⁴¹ codices | Promotion/demotion of rules across Chaos God quadrants distills domain codices into sprint-ready BDD backlogs. |
 | **🔬 C⁴¹ TCAI** | Deterministic synthesis engine (extract → ground → markdown → editorial codex) | **v1.1.0 Operational**: `python`, `uv`, `ollama`, `pydantic` | Federation upstream: produces domain codices (e.g., debt-recovery v1.1 — 33 rules) for downstream CITADEL Dream Engine consumption. |
 
+### The Citadel-Pattern: 2026 Home-Ops Doctrine
+The substrate is deliberately **disposable** — all authority lives on the control plane, so the NUC can be rebuilt from git at any time:
+
+- **GitOps over file-sync** — code is moved by git only; cloud file-sync never touches a working tree (a hard-won lesson after sync conflict-copies corrupted a repo's loose objects).
+- **Encrypted secrets in-repo** — `sops`+`age` keep service credentials version-controlled and reproducible; decryption happens only on the control plane, never on the substrate.
+- **Sovereign private origin** — a self-hosted **Gitea** holds confidential and large-footprint repos behind the homelab boundary; public showcase work mirrors to GitHub.
+- **Mac-as-code** — the workstation itself is reproducible via `chezmoi` + a `Brewfile`, so a fresh machine bootstraps to a known-good state.
+- **Single sync provider per zone** — code is local, docs are single-provider, cold/binary data is archived; no folder is ever synced by two providers at once.
+
 ---
 
-## 📦 Key Repositories & Implementations
+## 📦 Open-Source Implementations
 
 ### ⚡ [binaric-chant](https://github.com/maurice-jobst/binaric-chant)
-An advanced Python prompt-compression library and Click-based ratification suite:
-* **Mechanism**: Compresses input text through a three-tier pipeline: Narrative matching to canonical Sagas, Caveman phrase compaction, and Glyph lexical substitutions.
-* **SEAL Security**: Appends a cryptographically signed signature block carrying a SHA-256 integrity hash, a canary echo prompt for TAMPER detection, and a forge band certifying model and sampling provenance.
-* **Status**: **Fully operational (v0.1.0)** with a 27-test validation suite and automated rule-syncing scripts.
+A Python prompt-compression library and Click-based ratification suite:
+* **Mechanism**: Compresses input through a three-tier pipeline — narrative matching to canonical Sagas, Caveman phrase compaction, and Glyph lexical substitutions.
+* **SEAL Security**: Appends a cryptographically signed block carrying a SHA-256 integrity hash, a canary echo prompt for tamper detection, and a forge band certifying model and sampling provenance.
+* **Status**: **Fully operational (v0.1.0)** — 27-test validation suite with automated rule-syncing.
 
 ### 💀 [servo-skull](https://github.com/maurice-jobst/servo-skull)
 A layout-preserving document ingestion engine:
 * **Mechanism**: Extracts textual data from complex PDFs, HTML, and Office documents with layout preservation (integrating PyMuPDF and Microsoft MarkItDown), chunking text into an optimized FTS5 database grounding.
 * **Status**: Deployed and active across workspace modules.
 
-### 🏰 [homeserver-infra](https://github.com/maurice-jobst/homeserver-infra)
-Ansible and Docker GitOps deployment configurations:
-* **Mechanism**: Automates bare-metal system hardening, network partitioning, and isolated container stacks to host Ollama, SQLite FTS5 nodes, and private APIs.
+### 🪨 [caveman_40k](https://github.com/maurice-jobst/caveman_40k)
+A Claude Code skill that compresses prompts by rewriting them into a high-density "caveman" register:
+* **Mechanism**: Strips function words and redundant grammar while preserving semantic load — the empirical precursor to the Caveman tier in the Binaric Chant pipeline.
+* **Result**: ~65% token reduction on suitable inputs.
+
+---
+
+## 🔒 Proprietary Systems
+*Private repositories — architecture walkthroughs and demos available on request.*
+
+### 🔬 C⁴¹ TCAI — Deterministic Synthesis Engine
+The federation's deterministic-first synthesis pipeline:
+* **Mechanism**: Three-stage pipeline (extract → ground → markdown) producing high-fidelity domain codices from heterogeneous source documents, with editorial codex curation enforcing three machine-checkable invariants (regex compliance, source-cite coverage, section presence).
+* **Federation contract**: C⁴¹ does deterministic synthesis and terminates at the codex; CITADEL's Dream Engine consumes the codex for 4-quadrant backlog generation.
+* **Status**: **v1.1.0 Released** — debt-recovery domain codex (33 rules, 5 sections) shipped with a full operational runbook.
+
+### 🏰 CITADEL (homeserver-infra) — GitOps Control Plane
+Ansible + Docker GitOps for a hardened homelab substrate:
+* **Mechanism**: Idempotent bare-metal hardening, network partitioning, and isolated container stacks hosting local Ollama, FTS5 nodes, and private services — reconciled from a single control plane with encrypted secrets.
 * **Status**: Operational, orchestrating distributed system states.
 
-### 🚃 [umo-pass-mtt](https://github.com/maurice-jobst/umo-pass-mtt) (CUBIC)
-Integration models and strategical architectures for transit payment infrastructures:
-* **Scope**: Technical specifications and payment schemas aligning with **Visa Contactless Transit (MTT)** and **Mastercard Transit Implementation Guidelines**.
-* **Status**: Deployed in production scoping folders.
-
-### 🔬 [c41-tcai-engine](https://github.com/maurice-jobst/c41-tcai-engine)
-The federation's deterministic-first synthesis pipeline:
-* **Mechanism**: Three-stage pipeline (extract → ground → markdown) producing high-fidelity domain codices from heterogeneous source documents. Editorial codex curation on top of grounded GapAnalyses with three machine-checkable invariants (regex compliance, source-cite coverage, section presence).
-* **Federation contract**: C⁴¹ does deterministic synthesis; CITADEL's Dream Engine consumes the produced codex for 4-quadrant backlog generation. C⁴¹ terminates at the codex.
-* **Status**: **v1.1.0 Released** — debt-recovery domain codex (33 rules, 5 sections) shipped with full operational runbook and engine v2.0 roadmap.
+### 🚃 Transit Fare-Payment Architecture *(client engagement — confidential)*
+Integration models for contactless transit-payment infrastructures aligned with **Visa Contactless Transit (MTT)** and **Mastercard Transit** implementation guidelines. Delivered as a structured, version-controlled feature backlog and technical specification set. *(Client-confidential; not public.)*
 
 ---
 
@@ -86,24 +103,21 @@ The federation's deterministic-first synthesis pipeline:
 
 ---
 
-## 🚀 Sovereign Infrastructure Deployment
-### Prerequisites
-* **Control Node**: macOS workstation (Apple Silicon) with SSH key access configured to `homeserver`.
-* **Execution Node**: Intel NUC or Ubuntu bare-metal server.
-* **Inference Substrate**: Ollama daemon hosting local quantized models.
+## 🚀 Sovereign Infrastructure: The GitOps Flow
+The control-plane repository is **private** (architecture walkthrough available on request). The reconciliation shape:
 
-### Reconcile Systems
 ```bash
-# 1. Clone the core GitOps control plane
-git clone https://github.com/maurice-jobst/homeserver-infra.git
+# 1. Control plane decrypts secrets locally — the age key never leaves the Mac
+sops -d docker/<stack>/secrets.enc.env > docker/<stack>/.env
 
-# 2. Setup your local environment
-cd homeserver-infra
-uv venv && source .venv/bin/activate
-
-# 3. Provision bare-metal node
-ansible-playbook -i inventory.ini bootstrap.yml
+# 2. Reconcile the substrate from version-controlled state
+./deploy.sh                                  # rsync config + docker compose up -d
+ansible-playbook -i inventory.ini bootstrap.yml   # idempotent host provisioning
 ```
+
+* **Control Node**: macOS workstation (Apple Silicon) with passwordless SSH to `homeserver`.
+* **Execution Node**: Intel NUC / Ubuntu bare-metal.
+* **Inference Substrate**: MLX-accelerated Ollama hosting local quantized models (e.g. `gemma4`).
 
 ---
 
@@ -115,6 +129,6 @@ ansible-playbook -i inventory.ini bootstrap.yml
 [![GitHub](https://img.shields.io/badge/GitHub-maurice--jobst-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maurice-jobst)
 [![Email](https://img.shields.io/badge/Email-maurice.jobst%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maurice.jobst@gmail.com)
 
-*Last updated: 28 May 2026 (C⁴¹ TCAI v1.1.0 Release — debt-recovery codex shipped; dreaming → CITADEL federation handoff)*
+*Last updated: 29 May 2026 — Citadel-pattern hardening: SOPS+age encrypted secrets, private Gitea origin, MLX-Ollama, Mac-as-code*
 
 </div>
