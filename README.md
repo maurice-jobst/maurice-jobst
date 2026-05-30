@@ -3,7 +3,7 @@
 <div align="center">
 
 <!-- Typing SVG - Cyberpunk Terminal initialization -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FF66&center=true&vCenter=true&width=650&height=50&lines=INITIALIZING+SCRIPTORUM+PROTOCOLS...;RECONCILING+CITADEL+GITOPS+STATE...;COMPACTING+TOKENS+VIA+BINARIC+CHANT...;SYNTHESIZING+DOMAINS+WITH+C41+TCAI...;ACTIVATING+CAIS+PLAYBOOK+CORES...;SOVEREIGN+ENGINEERING+ACTIVE" alt="Terminal Sub-routines" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FF66&center=true&vCenter=true&width=650&height=50&lines=INITIALIZING+SCRIPTORUM+PROTOCOLS...;RECONCILING+CITADEL+GITOPS+STATE...;COMPACTING+TOKENS+VIA+BINARIC+CHANT...;SYNTHESIZING+DOMAINS+WITH+C41+TCAI...;ACTIVATING+C415+PLAYBOOK+CORES...;SOVEREIGN+ENGINEERING+ACTIVE" alt="Terminal Sub-routines" />
 
 **Principal Systems Architect & Local-First AI Engineer**  
 *Specialist in Sovereign B2B & B2G Architectures | Grand Master of the Librarium & Noosphere Architect*
@@ -96,7 +96,7 @@ All work flows through a structured lifecycle that captures research leverage an
 | **🏰 CITADEL** | GitOps Host Control Plane | Deployed: `ansible-core`, `docker-compose`, `sops`+`age`, `gitea` | Immutable host setup with **age-encrypted secrets in-repo** (keys stay on control plane) and a private git origin. |
 | **💀 SERVO SKULL** | Layout-Purifying Document Ingestion | Deployed: `sqlite3 (FTS5)`, `pymupdf4llm`, `markitdown` | Structural chunking and fast local semantic retrieval for sovereign document vaults. |
 | **⚡ BINARIC CHANT** | Three-tier prompt compression | **v0.1.0 Operational**: `python`, `transformers`, `tenacity` | **65%+ token savings** and cryptographically sealed prompt verification. |
-| **⚙️ CAIS** | Cubic Agentic Interface System | Deployed (Confidential Gitea): `python`, `silverbullet` | Ingests codices, detects methodology, and renders the living PM "AI Sherpa" Playbook. |
+| **⚙️ C⁴¹⁵** | Cubic Agentic Interface System (CAIS) | Deployed (Confidential Gitea): `python`, `silverbullet` | Ingests codices, detects methodology, and renders the living PM "AI Sherpa" Playbook. |
 | **⚙️ TECH PRIEST** | Autonomous Maintenance Daemon | Under active construction: `python`, `ollama` | Self-healing container environments and automated resource cleanup on the substrate. |
 | **🔬 C⁴¹ TCAI** | Deterministic synthesis engine | **v1.1.0 Operational**: `python`, `uv`, `ollama`, `pydantic` | Ingests documents to produce domain codices (e.g. debt-recovery v1.1) for downstream backlog consumption. |
 
@@ -152,7 +152,7 @@ The substrate is deliberately **disposable** — all authority lives on the cont
 ### 🔒 Proprietary Systems
 *Private repositories — architecture walkthroughs and demonstrations available on request.*
 
-#### 🛡️ CAIS (Cubic Agentic Interface System)
+#### 🛡️ C⁴¹⁵ (Cubic Agentic Interface System)
 [![Status](https://img.shields.io/badge/Status-Operational-00ff66?style=flat-square&labelColor=8A2BE2)](#)
 * **Mechanism**: Ingests synthesized codices from C⁴¹ and parses them via the Prognosticar loop to generate BDD backlogs and render a living Playbook for the Project Manager.
 * **Confidentiality**: Maintained strictly behind the Gitea boundary. No public origin.
