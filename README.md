@@ -3,10 +3,10 @@
 <div align="center">
 
 <!-- Typing SVG - Cyberpunk Terminal initialization -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FF66&center=true&vCenter=true&width=650&height=50&lines=INITIALIZING+SCRIPTORUM+PROTOCOLS...;RECONCILING+CITADEL+GITOPS+STATE...;COMPACTING+TOKENS+VIA+BINARIC+CHANT...;SYNTHESIZING+DOMAINS+WITH+C41+TCAI...;SOVEREIGN+ENGINEERING+ACTIVE" alt="Terminal Sub-routines" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FF66&center=true&vCenter=true&width=650&height=50&lines=INITIALIZING+SCRIPTORUM+PROTOCOLS...;RECONCILING+CITADEL+GITOPS+STATE...;COMPACTING+TOKENS+VIA+BINARIC+CHANT...;SYNTHESIZING+DOMAINS+WITH+C41+TCAI...;ACTIVATING+CAIS+PLAYBOOK+CORES...;SOVEREIGN+ENGINEERING+ACTIVE" alt="Terminal Sub-routines" />
 
 **Principal Systems Architect & Local-First AI Engineer**  
-*Specialist in Sovereign B2B & B2G Architectures | Guardian of the Scriptorum*
+*Specialist in Sovereign B2B & B2G Architectures | Grand Master of the Librarium & Noosphere Architect*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Maurice%20Jobst-00FF66?style=flat-square&logo=linkedin&logoColor=090D16&labelColor=8A2BE2)](https://www.linkedin.com/in/mauricejobst/)
 [![GitHub](https://img.shields.io/badge/GitHub-maurice--jobst-00FF66?style=flat-square&logo=github&logoColor=090D16&labelColor=8A2BE2)](https://github.com/maurice-jobst)
@@ -21,8 +21,13 @@
 
 I design and deploy secure, air-gapped, and privacy-preserving automation systems. My focus is on distributed systems, local-first LLM orchestrations, high-fidelity prompt compression pipelines, and idempotent infrastructure provisioning.
 
-### Systems Philosophy
-By mapping technical states to highly structured semantic schemas (e.g. priors and canons), we anchor LLM reasoning to predictable, low-latency, and audit-compliant patterns. This hybrid approach enables enterprise-grade accuracy, massive context cost reductions, and absolute data sovereignty—ideal for highly regulated B2B and public sector (B2G) deployments.
+### Systems Philosophy & Architecture (ANA)
+All operations adhere to the **Asymmetric Nexus Architecture (ANA)**, separating deep technical storage from flat, fast knowledge capture:
+1. **Deep Storage Core** (iCloud / Finder) — Strict PARA hierarchy (`1_Projects`, `2_Areas`, `3_Resources`, `4_Archives`) for authoritative documents.
+2. **Flat Knowledge Layer** (Obsidian / SilverBullet) — Flat structures optimized for rapid ideation, semantic linking, and local-first wiki consolidation.
+3. **High-Fidelity Twins** — Every source document in Deep Storage is processed into a layout-preserved Markdown twin inside the note-vault.
+
+By mapping technical states to highly structured semantic schemas (e.g., priors and canons), we anchor LLM reasoning to predictable, low-latency, and audit-compliant patterns. This hybrid approach enables enterprise-grade accuracy, massive context cost reductions, and absolute data sovereignty—ideal for highly regulated B2B and public sector (B2G) deployments.
 
 ---
 
@@ -69,16 +74,31 @@ The workspace operates as a federated two-node environment combining an Apple M-
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=maurice-jobst&theme=tokyonight&background=0d1117&fire=00ff66&ring=8a2be2&stroke=8a2be2&currStreakLabel=00ff66&sideNums=c9d1d9&sideLabels=c9d1d9&dates=c9d1d9" alt="GitHub Streak Stats" />
 </p>
 
-### Core Production Components
+---
+
+## 🌌 The Forge Lifecycle
+
+All work flows through a structured lifecycle that captures research leverage and controls complexity:
+
+| Stage | Meaning | Operational Mapping |
+| :--- | :--- | :--- |
+| **Nebula** | The raw cloud: initial research, grounding, and source document collection. *Sharpening the axe.* | Raw policy analysis, regulatory PDFs, and stakeholder requirement briefs. |
+| **Star (Ignition)** | Value creation: deterministic extraction, codification, and backlog synthesis. | Forged Codices, CITADEL Dream Engine runs, and live product backlogs. |
+| **Red Giant** | Aging and expansion: managing organizational complexity and code bloat. | Legacy codebase refactoring and integration maintenance. |
+| **White Dwarf** | Distillation: memories, dreaming, and compression compacted into a dense research core. | Theory and evidence formalization inside the [`white-dwarf`](https://github.com/maurice-jobst/white-dwarf) spoke. |
+
+---
+
+## ⚙️ Core Production Components
 
 | Component | Architecture | Production State / Dependency | B2B/B2G Value |
 | :--- | :--- | :--- | :--- |
-| **🏰 CITADEL** | GitOps Host Control Plane | Deployed: `ansible-core`, `docker-compose`, `sops`+`age`, `gitea` | Immutable, repeatable setups with **age-encrypted secrets in-repo** (keys stay on control plane) and a sovereign private git origin. |
+| **🏰 CITADEL** | GitOps Host Control Plane | Deployed: `ansible-core`, `docker-compose`, `sops`+`age`, `gitea` | Immutable host setup with **age-encrypted secrets in-repo** (keys stay on control plane) and a private git origin. |
 | **💀 SERVO SKULL** | Layout-Purifying Document Ingestion | Deployed: `sqlite3 (FTS5)`, `pymupdf4llm`, `markitdown` | Structural chunking and fast local semantic retrieval for sovereign document vaults. |
 | **⚡ BINARIC CHANT** | Three-tier prompt compression | **v0.1.0 Operational**: `python`, `transformers`, `tenacity` | **65%+ token savings** and cryptographically sealed prompt verification. |
-| **⚙️ TECH PRIEST** | Autonomous Maintenance Daemon | Under active construction: `python`, `ollama` | Self-healing container environments and automated resource cleanup. |
-| **🌙 DREAM ENGINE** | 4-Quadrant Codex → BDD Backlog Synthesis | Design spec finalized: `posix-spooling`, `sqlite`; consumes C⁴¹ codices | Promotion/demotion of rules across Chaos God quadrants distills domain codices into sprint-ready BDD backlogs. |
-| **🔬 C⁴¹ TCAI** | Deterministic synthesis engine | **v1.1.0 Operational**: `python`, `uv`, `ollama`, `pydantic` | Upstream generator: produces domain codices (e.g. debt-recovery v1.1) for downstream CITADEL Dream Engine consumption. |
+| **⚙️ CAIS** | Cubic Agentic Interface System | Deployed (Confidential Gitea): `python`, `silverbullet` | Ingests codices, detects methodology, and renders the living PM "AI Sherpa" Playbook. |
+| **⚙️ TECH PRIEST** | Autonomous Maintenance Daemon | Under active construction: `python`, `ollama` | Self-healing container environments and automated resource cleanup on the substrate. |
+| **🔬 C⁴¹ TCAI** | Deterministic synthesis engine | **v1.1.0 Operational**: `python`, `uv`, `ollama`, `pydantic` | Ingests documents to produce domain codices (e.g. debt-recovery v1.1) for downstream backlog consumption. |
 
 ### The Citadel-Pattern: 2026 Home-Ops Doctrine
 The substrate is deliberately **disposable** — all authority lives on the control plane, so the NUC can be rebuilt from git at any time:
@@ -98,37 +118,51 @@ The substrate is deliberately **disposable** — all authority lives on the cont
 #### ⚡ [binaric-chant](https://github.com/maurice-jobst/binaric-chant)
 [![Python](https://img.shields.io/badge/Python-3.12-8A2BE2?style=flat-square&logo=python&logoColor=00FF66&labelColor=090D16)](https://github.com/maurice-jobst/binaric-chant)
 [![v0.1.0](https://img.shields.io/badge/Version-v0.1.0-00ff66?style=flat-square&labelColor=8A2BE2)](https://github.com/maurice-jobst/binaric-chant)
-* **Mechanism**: Monospace token-compression pipeline matching inputs to canonical Sagas, compacting phrases, and performing Glyph lexical substitutions.
-* **SEAL Security**: Appends a cryptographically signed block with SHA-256 integrity hash, a canary echo prompt for tamper detection, and a model/sampling provenance band.
-* **Status**: **Fully operational (v0.1.0)** — 27-test validation suite with automated rule-syncing.
+* **Mechanism**: Three-tier symbolic token-compression (Narrative Sagas → Caveman phrases → Glyph lexical substitutions) with a shared preserve mechanism masking code and constants.
+* **SEAL Security**: Appends a cryptographically signed block with SHA-256 integrity hash, a canary echo prompt for model-substitution detection, and a forge provenance band.
+* **Status**: **Fully operational (v0.1.0)** — 32-test validation suite with automated rule-syncing.
 
 #### 💀 [servo-skull](https://github.com/maurice-jobst/servo-skull)
 [![Python](https://img.shields.io/badge/Python-3.12-8A2BE2?style=flat-square&logo=python&logoColor=00FF66&labelColor=090D16)](https://github.com/maurice-jobst/servo-skull)
-[![Ingestion](https://img.shields.io/badge/Type-Document%20Ingestion-00ff66?style=flat-square&labelColor=8A2BE2)](https://github.com/maurice-jobst/servo-skull)
 * **Mechanism**: Extracts structural data from complex PDFs, HTML, and Office files preserving layout (using PyMuPDF and MarkItDown), chunking text into an optimized local FTS5 database.
-* **Status**: Deployed and active across local document vaults.
+* **Status**: Public mirror of the C⁴¹ ingestion library. Active across workspace note-vaults.
 
 #### 🪨 [caveman_40k](https://github.com/maurice-jobst/caveman_40k)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-8A2BE2?style=flat-square&logo=anthropic&logoColor=00FF66&labelColor=090D16)](https://github.com/maurice-jobst/caveman_40k)
 * **Mechanism**: Claude Code skill for prompt compression via stripping grammatical function words while keeping semantic payload intact (the precursor to the Caveman tier).
 * **Result**: ~65% token reduction on suitable inputs.
 
+#### 📔 [umo-pass-mtt](https://github.com/maurice-jobst/umo-pass-mtt)
+[![Docs](https://img.shields.io/badge/Type-Pocket%20Wiki-00ff66?style=flat-square&labelColor=8A2BE2)](https://github.com/maurice-jobst/umo-pass-mtt)
+* **Description**: Living transit-payments backlog structured as a SilverBullet pocket-wiki, consolidating requirements and briefings for open-loop payment taps.
+* **Status**: Public-facing backlog repository for Cubic Transportation Systems' UMOpass back-office.
+
+#### 🔬 [c41-tcai-engine](https://github.com/maurice-jobst/c41-tcai-engine)
+[![Engine](https://img.shields.io/badge/Type-Synthesis%20Engine-00ff66?style=flat-square&labelColor=8A2BE2)](https://github.com/maurice-jobst/c41-tcai-engine)
+* **Mechanism**: The reference implementation of the C⁴¹ synthesis engine. Parses raw documents into structured domain codices using deterministic extraction and hallucination scoring.
+
+#### 🏰 [homeserver-infra](https://github.com/maurice-jobst/homeserver-infra)
+[![Infrastructure](https://img.shields.io/badge/Type-GitOps%20IaC-00ff66?style=flat-square&labelColor=8A2BE2)](https://github.com/maurice-jobst/homeserver-infra)
+* **Description**: Public mirror of the CITADEL GitOps repository, managing container stacks, network partitioning, and local LLM endpoints.
+
+#### ☄️ [white-dwarf](https://github.com/maurice-jobst/white-dwarf)
+[![Research](https://img.shields.io/badge/Type-Research%20Spoke-00ff66?style=flat-square&labelColor=8A2BE2)](https://github.com/maurice-jobst/white-dwarf)
+* **Description**: Prose-based research spoke documenting the IIT thesis and academic theory behind ANA, Binaric Chant, and determinism-first ingestion.
+
 ### 🔒 Proprietary Systems
 *Private repositories — architecture walkthroughs and demonstrations available on request.*
 
-#### 🔬 C⁴¹ TCAI — Deterministic Synthesis Engine
-[![Status](https://img.shields.io/badge/Status-v1.1.0%20Released-00ff66?style=flat-square&labelColor=8A2BE2)](#)
-* **Mechanism**: Three-stage pipeline (extract → ground → markdown) producing high-fidelity domain codices with editorial curation enforcing three machine-checked invariants (regex compliance, source-cite coverage, section presence).
-* **Federation contract**: Synthesizes codices for CITADEL's Dream Engine to consume for backlog generation.
-* **Status**: Shipped debt-recovery domain codex (33 rules, 5 sections) with full operational runbook.
-
-#### 🏰 CITADEL (homeserver-infra) — GitOps Control Plane
+#### 🛡️ CAIS (Cubic Agentic Interface System)
 [![Status](https://img.shields.io/badge/Status-Operational-00ff66?style=flat-square&labelColor=8A2BE2)](#)
+* **Mechanism**: Ingests synthesized codices from C⁴¹ and parses them via the Prognosticar loop to generate BDD backlogs and render a living Playbook for the Project Manager.
+* **Confidentiality**: Maintained strictly behind the Gitea boundary. No public origin.
+
+#### 🏰 CITADEL Control Plane (homeserver-infra)
 * **Mechanism**: Ansible + Docker compose scripts managing idempotent NUC hardening, network partitioning, local Ollama endpoints, and private storage networks.
 
 #### 🚃 Transit Fare-Payment Architecture
 [![Confidential](https://img.shields.io/badge/Classification-Client%20Confidential-red?style=flat-square&labelColor=1A1B26)](#)
-* **Scope**: Integration specs for contactless fare-payments aligned with Visa MTT and Mastercard Transit guidelines. Delivered as a structured, versioned backlog.
+* **Scope**: Integration specs for contactless fare-payments aligned with Visa MTT and Mastercard Transit guidelines. Delivered as a structured, version-controlled backlog.
 
 ---
 
