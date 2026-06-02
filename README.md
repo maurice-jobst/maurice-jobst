@@ -124,8 +124,9 @@ The substrate is deliberately **disposable** — all authority lives on the cont
 
 #### 💀 [servo-skull](https://github.com/maurice-jobst/servo-skull)
 [![Python](https://img.shields.io/badge/Python-3.12-C05640?style=flat-square&logo=python&logoColor=B59963&labelColor=16161A)](https://github.com/maurice-jobst/servo-skull)
-* **Mechanism**: Extracts structural data from complex PDFs, HTML, and Office files preserving layout (using PyMuPDF and MarkItDown), chunking text into an optimized local FTS5 database.
-* **Status**: Public mirror of the C⁴¹ ingestion library. Active across workspace note-vaults.
+[![v1.0.0](https://img.shields.io/badge/Version-v1.0.0-B59963?style=flat-square&labelColor=C05640)](https://github.com/maurice-jobst/servo-skull)
+* **Mechanism**: Layout-purifying document ingestion engine combining local `pymupdf4llm`, `whisper` audio/video transcription, local Tesseract OCR, network-routed Ollama VLM (Qwen2.5-VL), and chat transcript parsing (integrated via the `Lexmechanic` pipeline).
+* **Status**: **Fully operational (v1.0.0)**. Distributed across homeserver NUC background servitor daemons and workstation control nodes.
 
 #### 🪨 [caveman_40k](https://github.com/maurice-jobst/caveman_40k)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-C05640?style=flat-square&logo=anthropic&logoColor=B59963&labelColor=16161A)](https://github.com/maurice-jobst/caveman_40k)
