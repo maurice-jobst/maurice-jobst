@@ -102,7 +102,7 @@ machines that do the teaching. Warm, human, on-theme.
 
 | # | Section | Intent | Persona level |
 |---|---------|--------|---------------|
-| 1 | **Hero / title block** | Real name, professional subtitle (*Senior Product & Delivery Lead · Local-First AI · Human-Orchestration Systems*), Frankfurt + 15+ yrs line, restrained badges (LinkedIn, GitHub, focus). No trophy wall; at most one quiet line. | None (fully professional) |
+| 1 | **Hero / title block** | Real name, professional subtitle (*Senior Product & Delivery Lead · Local-First AI Architect · Human-Orchestration Systems*), Frankfurt + 15+ yrs line, restrained badges (LinkedIn, GitHub, focus). No trophy wall; at most one quiet line. | None (fully professional) |
 | 2 | **About me** | The threshold-life narrative from §4. The human heart of the page. | Light wink (cabbalist named as the current, impermanent lens) |
 | 3 | **What I'm building now** | The thesis: LLM-as-human-orchestrator — the AI holds the picture and treats the human as one more interface in the loop. Local-first, Mac-as-code, Apple Silicon, privacy, paradigm-inversion. No over-claiming. | Minimal |
 | 4 | **Open-source work** | Repo showcase. One-line intro earns the names: *"I name my tools so I remember them — the name carries the job."* Then `servo-skull`, `binaric-chant`, `caveman_40k` with what each actually does. | The 40k names live here (justified) |
@@ -154,38 +154,50 @@ Open-source repos (public, linkable):
   existing GW-copyright / unofficial-fan-use disclaimer for the 40k names.
 - **Do not push** to origin unless Maurice explicitly asks (AGENTS.md §3).
 
-## 8 · Sample prose (the agreed dial)
+## 8 · Locked About-me prose (approved 2026-06-03 — the synthesis)
+
+Maurice's own elevated B2G register + restored human warmth + exactly one light cabbalist
+wink. Hero subtitle uses **"Local-First AI Architect"** (his phrasing).
 
 ```markdown
 # Maurice Jobst
-**Senior Product & Delivery Lead · Local-First AI · Human-Orchestration Systems**
+**Senior Product & Delivery Lead · Local-First AI Architect · Human-Orchestration Systems**
 *Frankfurt am Main · 15+ years of delivery across regulated fintech, mobility & public-sector*
 
 ## About me
 
-I've spent my life at the threshold between business and technology — and I've watched
-technology quietly rewrite how humans talk to each other the whole way through. I learned
-English from a Game Boy and from Dune II before I learned it in a classroom. I wrote my
-first lines of Turbo Pascal on an Atari ST, on a 486 that felt like a spaceship. Multiplayer
-games turned out to be a free, consequence-free school for leading people: coordinating
-strangers, building communities, running distributed teams remotely years before anyone
-called it "remote work."
+I operate at the intersection of complex regulatory frameworks and advanced local-first
+technology. My journey began writing Turbo Pascal on an Atari ST and learning English from a
+Game Boy and *Dune II* — then organizing early multiplayer communities that became a
+consequence-free training ground for leading distributed, cross-functional teams long before
+"remote work" was a corporate standard. *(One of those games was Warhammer Online; I later
+worked at its European publisher, GOA Games — my name is in the credits somewhere, which
+still makes me grin.)*
 
-That became the job. PayPal, Tipico, Avira, Velvon, Oddspedia, Cubic — and, early on, GOA
-Games, the European publisher of the very worlds I'd been playing. *(My name is in the
-Warhammer credits somewhere, which still makes me grin.)* Malta, Ireland, the UK,
-Switzerland, Los Angeles, the Bodensee — same role every time: stand between ambitious
-people and complicated systems and make the two cooperate, honestly.
+For over 15 years I've translated ambitious business visions into resilient, high-throughput
+execution across highly regulated environments — PayPal, Avira, Tipico, Velvon, and Cubic —
+from cloud-native core banking under BaFin scrutiny to public-transport platforms serving
+millions. The role stays constant: stand between ambitious stakeholders and complicated
+systems and make them cooperate, transparently.
 
-Only the crew is different now. These days I summon it — I build and orchestrate AI agents
-to do the work a team used to, and I've learned the summoner's real lesson: once you've got
-a dozen of them, a few have to manage the rest, so you can keep your attention on the bigger
-picture. Right now that role feels like being a cabbalist, a conjurer. That's just the
-current name for it — it'll change again. The threshold is the constant.
+Today my engineering focus is **sovereign, local-first AI architecture**. I design
+air-gapped, GDPR-compliant agentic substrates on Apple Silicon — deterministic-first
+ingestion and execution that guarantees data integrity, privacy, and performance without
+fragile cloud-dependent APIs. Everything runs on Mac-as-Code principles (`chezmoi`, versioned
+manifests) and local GitOps, so the infrastructure and the local LLM runtimes alike are
+fully reproducible, auditable, and resilient.
 
-I'm back in Frankfurt am Main now, the town I was born in, raising my daughter in a world
-that's AI-native from the start — and trying to be an AI-native dad worth having. Honest
-work, out in the open, is the whole point of this page.
+I lead hybrid orchestration systems where human teams and local AI agents collaborate under
+strict engineering guidelines. The crew is just different now — these days I summon part of
+it, and right now that work honestly feels a little like being a cabbalist, a conjurer of
+constructs. That's only the current name for it; the constant is the threshold between
+business and technology, and I've stood there my whole life.
+
+I'm based in Frankfurt am Main, the town I was born in, raising my daughter in a world that's
+AI-native from the start — and trying to be an AI-native dad worth having. *(My wife taught
+English once, in Brazil; now she's at Nintendo, building the machines that do the teaching.)*
+I build open, sovereign, secure systems made to stand up to regulatory and architectural
+scrutiny — honest work, out in the open.
 ```
 
 ## 9 · Build approach
