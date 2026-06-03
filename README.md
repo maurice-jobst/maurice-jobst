@@ -43,9 +43,7 @@ Applied to delivery and people-leadership, that becomes a system that runs a man
 | Project | What it is |
 |---|---|
 | **[binaric-chant](https://github.com/maurice-jobst/binaric-chant)** | Three-tier prompt-compression library (~65% token reduction) with a cryptographic **SEAL** — SHA-256 integrity hash plus a canary that detects model substitution or tampering. *More mechanism than code.* |
-| **[servo-skull](https://github.com/maurice-jobst/servo-skull)** | Layout-preserving document ingestion (PyMuPDF + MarkItDown) into a fast local FTS5 store. The deterministic front door — no model invents what a document said. |
-| **[caveman_40k](https://github.com/maurice-jobst/caveman_40k)** | A prompt-compression skill that strips grammatical function words while keeping the semantic payload intact. The empirical precursor to the pipeline above. |
-| **[c41-tcai-engine](https://github.com/maurice-jobst/c41-tcai-engine)** | Reference implementation of a deterministic synthesis engine: parses raw documents into structured domain codices with extraction and hallucination scoring. |
+| **[servo-skull](https://github.com/maurice-jobst/servo-skull)** | Local-first document scoping engine: extract → ground → markdown gap-analysis against a domain codex. Layout-preserving ingestion (PyMuPDF + MarkItDown) into a fast local FTS5 store, so no model invents what a document said. |
 
 ---
 
