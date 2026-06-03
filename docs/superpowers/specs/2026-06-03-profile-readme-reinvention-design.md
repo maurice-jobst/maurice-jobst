@@ -17,17 +17,35 @@ The previous live README leaned heavy on Adeptus Mechanicus styling (typing SVG,
 forge, trophy wall, "Grand Master of the Librarium"). This reinvention deliberately dials
 that **down** and re-centres the page on a human story.
 
-## 2 · Audience & voice
+## 2 · Audience, strategy & voice
 
-- **Primary audience:** recruiters, founders, family offices, B2G/advisory contacts who
-  arrive from LinkedIn or a cold search. Must read clean and credible to someone who knows
-  nothing about DAoC or Warhammer 40k.
-- **Secondary audience:** peers and fellow builders who recognise the references and enjoy
-  the wink.
+- **Primary audience:** recruiters, founders, family offices, and **public-sector / B2G
+  decision-makers in Berlin, Brussels, and Frankfurt** who arrive from LinkedIn or a cold
+  search. Must read clean and credible to someone who knows nothing about DAoC or 40k.
+- **Secondary audience:** peers and fellow builders who recognise the references.
+- **Strategic intent (stated, not published):** this profile is a **showcase only** — the
+  internal Gitea is the authority and holds nothing private/secret reaches GitHub. Its job
+  is to *put Maurice on the radar* for **high-level B2G leadership / advisory roles** — the
+  person who has personally built this for two decades and is therefore most useful now in a
+  leadership seat: an orchestrator who holds the picture and acts with delegated authority,
+  standing between leadership, regulation, and engineering and making the three cooperate.
+  *(The deeper motive — financial freedom to fund his own research — stays off the page.)*
 - **Voice:** warm, honest, plain-spoken, first-person. Professional substance leads every
   section. Mythology is *seasoning* — a knowing aside, never a lore wall.
 - **The dial (agreed):** "I want people to see I am honest and open without exposing too
   much of the nerdiness." Human-and-honest first; the universe is a wink.
+
+### 2026 best-practice constraints (from current GitHub-profile guidance)
+
+- **Signal, not noise.** No badge walls, no resume-dump, no "expert in 47 technologies."
+  Clean and scannable.
+- **Lead with who/what** (1–2 lines) → current threads (2–3) → featured repos (3–5, one
+  line each) → how to reach me (2–3 links). Mirror this shape.
+- **Senior-leader-with-private-work pattern:** describe large-scale systems at the
+  architecture level — responsibilities, scaling milestones, leadership footprint — without
+  exposing code. This fits Maurice exactly (Gitea is the authority).
+- **Featured/pinned repos carry weight:** ensure the showcase repos are pin-worthy and each
+  has a one-paragraph "what & why" README of its own (out of scope here, but note it).
 
 ## 3 · The framing doctrine
 
@@ -75,11 +93,10 @@ Beats, in order, kept light and evocative (not a spec-dump list):
 I married taught English too — once in Brazil — and now works at Nintendo, building the
 machines that do the teaching. Warm, human, on-theme.
 
-> ⚠ **Review gate — public exposure.** This is a world-readable page. Confirm before
-> publishing: (a) naming **Nintendo** as my wife's employer; (b) referencing my **daughter**
-> at all (proposed: "my daughter," no name); (c) referencing my **wife** (proposed: no
-> name). Default if unconfirmed: keep the warmth, drop the employer name and any detail that
-> identifies family members. Per profile AGENTS.md §0.1, err toward less PII.
+> ✅ **Public-exposure decision (approved 2026-06-03).** Maurice approved: naming
+> **Nintendo** as his wife's employer (deemed anonymous enough), and referencing **"my
+> wife"** and **"my daughter"** — both **without names**. No further family-identifying
+> detail beyond this.
 
 ## 5 · Section structure (`README.md`)
 
@@ -91,7 +108,13 @@ machines that do the teaching. Warm, human, on-theme.
 | 4 | **Open-source work** | Repo showcase. One-line intro earns the names: *"I name my tools so I remember them — the name carries the job."* Then `servo-skull`, `binaric-chant`, `caveman_40k` with what each actually does. | The 40k names live here (justified) |
 | 5 | **The setup** | Brief: two-node sovereign, local-first, GitOps, Mac-as-code. Compact nod — NOT the heavy live ASCII forge. | Minimal |
 | 6 | **Track record** | Evidence, persona-free: RMVgo 1.6→4.0 / 3M+ users / Deutschland-Ticket / €2M renewals; Velvon banking-license; 15+ yrs regulated sectors; certs (PRINCE2, PSPO, PSM, Exec MBA). | None |
-| 7 | **Footer** | One closing line in-voice + LinkedIn/GitHub badges. | Light |
+| 7 | **Where I'm pointed** | Short, forward-looking positioning: most useful at the intersection of high stakes, heavy regulation, and new technology — public-sector / B2G & EU-institution leadership and principal/advisory roles (Berlin · Brussels · Frankfurt). The orchestrator who makes leadership, regulation, and engineering cooperate. No "seeking work" desperation; quiet confidence. | None |
+| 8 | **Reach me / footer** | One closing line in-voice + a clean 2–3 link contact block: **LinkedIn (primary), GitHub, email**. LinkedIn is the conversion target — it must be prominent here AND as a hero badge. | Light |
+
+**LinkedIn weaving (explicit):** `https://www.linkedin.com/in/mauricejobst/` appears (a) as a
+badge in the hero block, and (b) as the first, most prominent link in the reach-me/footer
+block. The page is a showcase whose call-to-action is "continue the conversation on
+LinkedIn."
 
 ## 6 · Facts to use (grounded)
 
