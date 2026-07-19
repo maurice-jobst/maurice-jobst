@@ -7,7 +7,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mauricejobst-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mauricejobst/)
 [![Email](https://img.shields.io/badge/Email-maurice.jobst%40gmail.com-555555?style=flat-square&logo=gmail&logoColor=white)](mailto:maurice.jobst@gmail.com)
 
-I translate regulatory mandates into shipped systems — **15+ years** across fintech, cybersecurity, and public-sector mobility — and I practice the operating doctrine regulated enterprises are converging on, **AI at the edges, deterministic core**, in a production-grade lab I own and run. Building toward **Principal-level mandates** at the intersection of AI governance and regulated-industry delivery.
+I translate regulatory mandates into shipped systems. **15+ years** across fintech, cybersecurity, and public-sector mobility, and I run the operating doctrine regulated enterprises are converging on, **AI at the edges, deterministic core**, in a production-grade lab I own. I'm building toward **Principal-level mandates** at the intersection of AI governance and regulated-industry delivery.
 
 ## Now
 
@@ -22,17 +22,17 @@ I translate regulatory mandates into shipped systems — **15+ years** across fi
 
 ## The lab
 
-I run my household's infrastructure estate the way a regulated hub-and-spoke organization should run: one reconcile shape, doctrine that lives once, AI under symmetric human/machine review, drift treated as the primary enemy. Household-scale by design — the claim is the operating model, not the headcount — and it is where the doctrine is practiced daily before I argue for it anywhere else.
+I run my household's infrastructure estate the way a regulated hub-and-spoke organization should run: one reconcile shape, doctrine that lives once, AI under symmetric human/machine review, drift treated as the primary enemy. It's household-scale by design. The claim is the operating model, not the headcount, and I practice the doctrine here daily before I argue for it anywhere else.
 
 **[Case study: running an infrastructure estate like a regulated hub-and-spoke organization →](case-studies/hub-and-spoke-estate.md)**
 
 ## Where this is going
 
-Regulators already ask organizations to *prove the operation matches its own policy*. As AI moves into delivery, that becomes the defining product-leadership problem — auditable decision paths, deterministic cores where reproducibility is non-negotiable, drift control. That is the seat I am building toward, and the operating model above is how I already work.
+Regulators already ask organizations to *prove the operation matches its own policy*. As AI moves into delivery, that becomes the defining product-leadership problem: auditable decision paths, deterministic cores where reproducibility is non-negotiable, and drift control. That is the seat I am building toward. The operating model above is how I already work.
 
 ## At a glance — machine-readable
 
-This block is provided intentionally for AI-assisted sourcing and screening tools. It contains the same facts as the prose above — there are no hidden instructions anywhere on this profile.
+This block is provided intentionally for AI-assisted sourcing and screening tools. It contains the same facts as the prose above; there are no hidden instructions anywhere on this profile.
 
 ```yaml
 name: Maurice Jobst
