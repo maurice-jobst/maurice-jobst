@@ -16,7 +16,8 @@ I translate regulatory mandates into shipped systems. **15+ years** across finte
 ## Track record
 
 - **Cubic Transportation Systems — Senior Technical Project Manager (2021–2026):** turned around a **3M+ user** public-transit platform from **1.6 to 4.0 app-store stars** through Germany's politically critical *Deutschland-Ticket* national rollout, with zero downtime; secured **€2M+ in annual client renewals** through sustained SLA compliance.
-- **[Delivery-governance case study →](case-studies/deutschland-ticket-turnaround.md)**
+**[Delivery-governance case study →](case-studies/deutschland-ticket-turnaround.md)**
+
 - **Velvon Bank — Product Manager (2019–2020):** translated KWG requirements into deterministic engineering specifications for audit-ready core banking on GCP, under BaFin scrutiny, for a German banking-license acquisition.
 - **Earlier (2007–2019):** Head of Product Management (Oddspedia) · PMO advisor to Tier-1 German banks on MiFID II-era core modernization (DXC Technology) · consumer-security delivery (Avira) · payment & licensing compliance (Tipico) · PayPal, Dublin.
 - PSPO II · PSM I · Executive MBA program — Postgraduate Certificate (Dublin Business School).
