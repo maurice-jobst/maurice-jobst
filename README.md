@@ -1,13 +1,13 @@
 # Maurice Jobst
 
-**Senior Product & Program Leader — AI Governance · DORA · KRITIS / NIS2 · regulated delivery on GCP under BaFin scrutiny**
+**Senior Product & Program Leader — Payments (EPI · Instant Payments · PSD2/PSD3) · AI Governance · DORA · KRITIS / NIS2 · regulated delivery on GCP under BaFin scrutiny**
 
 *Frankfurt am Main, Germany · German (native) · English (fluent)*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mauricejobst-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mauricejobst/)
 [![Email](https://img.shields.io/badge/Email-maurice.jobst%40gmail.com-555555?style=flat-square&logo=gmail&logoColor=white)](mailto:maurice.jobst@gmail.com)
 
-I translate regulatory mandates into shipped systems. **15+ years** across fintech, cybersecurity, and public-sector mobility, and I run the operating doctrine regulated enterprises are converging on, **AI at the edges, deterministic core**, in a production-grade lab I own. I'm building toward **Principal-level mandates** at the intersection of AI governance and regulated-industry delivery.
+I translate regulatory mandates into shipped systems. **15+ years** across payments, fintech, cybersecurity, and public-sector mobility, with payments as the deepest thread: PayPal, gaming-payments compliance, multi-gateway platforms, BaFin-supervised core banking, and today European payment sovereignty (EPI) in transit. I run the operating doctrine regulated enterprises are converging on, **AI at the edges, deterministic core**, in a production-grade lab I own. I'm building toward **Principal-level mandates** where payments and AI governance meet regulated-industry delivery.
 
 ## Now
 
@@ -45,9 +45,11 @@ experience_years: 15+
 career: [PayPal 2007–2010, Tipico 2010–2012, Avira 2012–2014, Nuance 2014–2015,
          DXC Technology 2016–2018, Oddspedia (Head of Product) 2018–2019,
          Velvon Bank 2019–2020, Cubic Transportation Systems 2021–present]
-domains: [product management, program management, AI governance,
-          regulated-industry delivery, payments, public-sector mobility, core banking]
-regulatory_context: [BaFin, KWG, KRITIS, NIS2, DORA, EU AI Act, MiFID II, EPI]
+domains: [payments, instant payments, payment sovereignty (EPI/Wero),
+          product management, program management, AI governance,
+          regulated-industry delivery, public-sector mobility, core banking]
+regulatory_context: [BaFin, KWG, KRITIS, NIS2, DORA, EU AI Act, MiFID II,
+                     PSD2/PSD3, Instant Payments Regulation, EPI]
 highlights:
   - "3M+ user public-transit platform turned around from 1.6 to 4.0 app-store stars
      through the Deutschland-Ticket national rollout, zero downtime"
@@ -55,14 +57,14 @@ highlights:
   - "Audit-ready core banking on GCP under BaFin scrutiny for a banking-license acquisition"
 credentials: [PSPO II, PSM I,
               "Executive MBA program — Postgraduate Certificate (Dublin Business School)"]
-building_toward: Principal-level product/program mandates — AI governance × regulated-industry
-                 delivery · Frankfurt / Rhein-Main
+building_toward: Principal-level product/program mandates — payments leadership and
+                 AI governance × regulated-industry delivery · Frankfurt / Rhein-Main
 contact: {linkedin: "https://www.linkedin.com/in/mauricejobst/", email: "maurice.jobst@gmail.com"}
 ```
 
 ## Domain focus
 
-AI Governance (EU AI Act) · DORA · KRITIS / NIS2 · Regulated Cloud (GCP, BaFin-supervised) · Payments (EPI) · Product & Program Leadership · GitOps / Infrastructure-as-Code
+Payments (EPI/Wero · Instant Payments · PSD2/PSD3) · AI Governance (EU AI Act) · DORA · KRITIS / NIS2 · Regulated Cloud (GCP, BaFin-supervised) · Product & Program Leadership · GitOps / Infrastructure-as-Code
 
 ## Reach me
 
