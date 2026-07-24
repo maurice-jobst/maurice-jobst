@@ -35,4 +35,4 @@ Users voted that rating change in public. The renewals followed sustained SLA co
 
 The discipline that carried this program (one governed path for change, kept commitments you can audit, pressure absorbed by process instead of by heroics) is what regulated organizations need now that AI is entering their delivery systems.
 
-The [estate case study](hub-and-spoke-estate.md) in this repo shows that doctrine practiced end-to-end at lab scale. This engagement ran it at organizational scale, under political supervision, for three million users.
+The [estate case study](hub-and-spoke-estate.md) alongside this one shows that doctrine practiced end-to-end at lab scale. This engagement ran it at organizational scale, under political supervision, for three million users.
