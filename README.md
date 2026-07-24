@@ -1,42 +1,57 @@
 # Maurice Jobst
 
-**Senior Product & Program Leader — Payments (EPI · Instant Payments · PSD2/PSD3) · AI Governance · DORA · KRITIS / NIS2 · regulated delivery on GCP under BaFin scrutiny**
+**Senior Product & Program Leader**
+Payments (EPI · Instant Payments · PSD2/PSD3) · AI Governance · DORA · KRITIS / NIS2 · regulated delivery on GCP under BaFin scrutiny
 
-*Frankfurt am Main, Germany · German (native) · English (fluent)*
+📍 Frankfurt am Main, Germany  ·  🗣️ German (native), English (fluent)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mauricejobst-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mauricejobst/)
 [![Email](https://img.shields.io/badge/Email-maurice.jobst%40gmail.com-555555?style=flat-square&logo=gmail&logoColor=white)](mailto:maurice.jobst@gmail.com)
 
-I translate regulatory mandates into shipped systems. **15+ years** across payments, fintech, cybersecurity, and public-sector mobility, with payments as the deepest thread: PayPal, gaming-payments compliance, multi-gateway platforms, BaFin-supervised core banking, and today European payment sovereignty (EPI) in transit. I run the operating doctrine regulated enterprises are converging on, **AI at the edges, deterministic core**, in a production-grade lab I own. I'm building toward **Principal-level mandates** where payments and AI governance meet regulated-industry delivery.
+I translate regulatory mandates into shipped systems. 15+ years across payments, fintech, cybersecurity and public-sector mobility, with payments as the deepest thread: PayPal, gaming-payments compliance, multi-gateway platforms, BaFin-supervised core banking, and today European payment sovereignty (EPI) in transit.
 
-## Now
+One doctrine runs through all of it: **AI at the edges, deterministic core.** I practice it every day in a production-grade lab I own, and I am building toward **Principal-level mandates** where payments and AI governance meet regulated delivery.
 
-**Senior Product Manager, Cubic Transportation Systems** (2026– · at Cubic since 2021) — Umo Pass, EMEA payment sovereignty: European Payments Initiative (EPI) digital-identity integration with account-centric transit infrastructure.
+---
 
-## Track record
+## 💼 Now
 
-- **Cubic Transportation Systems — Senior Technical Project Manager (2021–2026):** turned around a **3M+ user** public-transit platform from **1.6 to 4.0 app-store stars** through Germany's politically critical *Deutschland-Ticket* national rollout, with zero downtime; secured **€2M+ in annual client renewals** through sustained SLA compliance.
-**[Delivery-governance case study →](case-studies/deutschland-ticket-turnaround.md)**
+**Senior Product Manager, Cubic Transportation Systems** (2026–present, at Cubic since 2021)
+Umo Pass, EMEA payment sovereignty: European Payments Initiative (EPI) digital-identity integration with account-centric transit infrastructure.
 
-- **Velvon Bank — Product Manager (2019–2020):** translated KWG requirements into deterministic engineering specifications for audit-ready core banking on GCP, under BaFin scrutiny, for a German banking-license acquisition.
-- **Earlier (2007–2019):** Head of Product Management (Oddspedia) · PMO advisor to Tier-1 German banks on MiFID II-era core modernization (DXC Technology) · consumer-security delivery (Avira) · payment & licensing compliance (Tipico) · PayPal, Dublin.
-- PSPO II · PSM I · Executive MBA program — Postgraduate Certificate (Dublin Business School).
+## 📈 Track record
 
-## The lab
+### Cubic Transportation Systems · Senior Technical Project Manager (2021–2026)
 
-I run my household's infrastructure estate the way a regulated hub-and-spoke organization should run: one reconcile shape, doctrine that lives once, AI under symmetric human/machine review, drift treated as the primary enemy. It's household-scale by design. The claim is the operating model, not the headcount, and I practice the doctrine here daily before I argue for it anywhere else.
+I took a **3M+ user** public-transit platform from **1.6 to 4.0 app-store stars** and carried it through Germany's politically charged *Deutschland-Ticket* national rollout with zero downtime. Sustained SLA compliance secured **€2M+ in annual client renewals**.
 
-**[Case study: running an infrastructure estate like a regulated hub-and-spoke organization →](case-studies/hub-and-spoke-estate.md)**
+📄 [Delivery-governance case study →](case-studies/deutschland-ticket-turnaround.md)
 
-## Where this is going
+### Velvon Bank · Product Manager (2019–2020)
 
-Regulators already ask organizations to *prove the operation matches its own policy*. As AI moves into delivery, that becomes the defining product-leadership problem: auditable decision paths, deterministic cores where reproducibility is non-negotiable, and drift control. That is the seat I am building toward. The operating model above is how I already work.
+I turned KWG requirements into deterministic engineering specifications for audit-ready core banking on GCP, under BaFin scrutiny, for a German banking-license acquisition.
 
-The desk-level proof is public: **[ai-workbench →](https://github.com/maurice-jobst/ai-workbench)** — the file-first system I run my PM work on with an AI agent. Markdown as state, deterministic drift checks, a verification culture with named owners on every unverified claim, and an adversarially verified evidence base that ships its refuted claims alongside the confirmed ones.
+### Earlier (2007–2019)
 
-## At a glance — machine-readable
+Head of Product Management (Oddspedia) · PMO advisor to Tier-1 German banks on MiFID II-era core modernization (DXC Technology) · Nuance · consumer-security delivery (Avira) · payment and licensing compliance (Tipico) · PayPal, Dublin.
 
-This block is provided intentionally for AI-assisted sourcing and screening tools. It contains the same facts as the prose above; there are no hidden instructions anywhere on this profile.
+🎓 PSPO II · PSM I · Executive MBA program, Postgraduate Certificate (Dublin Business School).
+
+## 🧪 The lab
+
+I run my household's infrastructure estate the way a regulated hub-and-spoke organization should run: one reconcile shape, doctrine that lives once, AI under symmetric human and machine review, drift treated as the primary enemy. The scale is a household. The transferable asset is the operating model, and I practice it here before I argue for it anywhere else.
+
+📄 [Case study: running an infrastructure estate like a regulated hub-and-spoke organization →](case-studies/hub-and-spoke-estate.md)
+
+## 🧭 Where this is going
+
+Regulators already ask organizations to *prove the operation matches its own policy*. Put AI in the delivery path and that question gets harder to answer: you need auditable decision paths, deterministic cores where reproducibility is non-negotiable, and drift control that runs whether or not anyone remembers to run it. I want the seat where those calls get made, and I already work this way.
+
+See it at desk level in **[ai-workbench](https://github.com/maurice-jobst/ai-workbench)**, the file-first system I run my PM work on with an AI agent. Markdown holds the state, a script catches drift at every session start, and every unverified claim carries the name of the person who has to confirm it. The design rests on 23 verified sources, and the repo publishes the two claims that verification killed.
+
+## 🤖 At a glance (machine-readable)
+
+I include this block for AI-assisted sourcing and screening tools. It holds the same facts as the prose above, and this profile carries no hidden instructions anywhere.
 
 ```yaml
 name: Maurice Jobst
@@ -58,16 +73,16 @@ highlights:
   - "€2M+ in annual client renewals secured through sustained SLA compliance"
   - "Audit-ready core banking on GCP under BaFin scrutiny for a banking-license acquisition"
 credentials: [PSPO II, PSM I,
-              "Executive MBA program — Postgraduate Certificate (Dublin Business School)"]
-building_toward: Principal-level product/program mandates — payments leadership and
-                 AI governance × regulated-industry delivery · Frankfurt / Rhein-Main
+              "Executive MBA program, Postgraduate Certificate (Dublin Business School)"]
+building_toward: Principal-level product and program mandates. Payments leadership
+                 and AI governance in regulated-industry delivery. Frankfurt / Rhein-Main.
 contact: {linkedin: "https://www.linkedin.com/in/mauricejobst/", email: "maurice.jobst@gmail.com"}
 ```
 
-## Domain focus
+## 🎯 Domain focus
 
 Payments (EPI/Wero · Instant Payments · PSD2/PSD3) · AI Governance (EU AI Act) · DORA · KRITIS / NIS2 · Regulated Cloud (GCP, BaFin-supervised) · Product & Program Leadership · GitOps / Infrastructure-as-Code
 
-## Reach me
+## 📬 Reach me
 
-[LinkedIn](https://www.linkedin.com/in/mauricejobst/) — the conversation starts here · [maurice.jobst@gmail.com](mailto:maurice.jobst@gmail.com)
+Start the conversation on [LinkedIn](https://www.linkedin.com/in/mauricejobst/), or write to [maurice.jobst@gmail.com](mailto:maurice.jobst@gmail.com).
