@@ -10,11 +10,14 @@
   <a href="https://www.linkedin.com/in/mauricejobst/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-mauricejobst-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:maurice.jobst@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-maurice.jobst-24292f?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://github.com/maurice-jobst/ai-workbench"><img alt="ai-workbench" src="https://img.shields.io/badge/Showcase-ai--workbench-1f6feb?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://maurice-jobst.github.io/"><img alt="Profile site" src="https://img.shields.io/badge/Site-maurice--jobst.github.io-0d1117?style=for-the-badge&logo=githubpages&logoColor=white"></a>
 </p>
 
 <p align="center">
   <b>I translate regulatory mandates into shipped systems.</b><br>
-  📍 Frankfurt am Main, Germany · 🗣️ German (native), English (fluent) · 🟢 Open to Principal-level mandates
+  📍 Frankfurt am Main · Rhein-Main · Germany-wide hybrid · 🗣️ German and English, both at native level<br>
+  🟢 Open to Principal-level product and leadership mandates: Head of Product, practice build-out, engagement leadership<br>
+  ⏱️ One month's notice
 </p>
 
 ---
@@ -47,11 +50,15 @@ flowchart LR
 
 I took a **3M+ user** public-transit platform from **1.6 to 4.0 app-store stars** and carried it through Germany's politically charged *Deutschland-Ticket* national rollout with zero downtime. The client renewed **€2M+ a year** after I held the program to a sustained SLA regime.
 
+I led **20+ people across vendors and partner organizations** through that delivery governance, holding no disciplinary line over any of them. Cubic then chartered me in the 2024 objectives to help stand up **Hamburg as its EMEA Technology Competence Center**, which runs today.
+
 📄 **[Delivery-governance case study →](case-studies/deutschland-ticket-turnaround.md)**
 
 ### 🏦 Velvon Bank · Product Manager (2019–2020)
 
 I turned KWG requirements into deterministic engineering specifications for audit-ready core banking on GCP, under BaFin scrutiny, for a German banking-license acquisition.
+
+📄 **[Payments case study: turning a banking act into engineering specifications →](case-studies/banking-act-to-specifications.md)**
 
 <details>
 <summary><b>📚 Earlier (2007–2019) and credentials</b></summary>
@@ -60,7 +67,7 @@ I turned KWG requirements into deterministic engineering specifications for audi
 
 | Where | What |
 |---|---|
-| **Oddspedia** (2018–2019) | Head of Product Management |
+| **Oddspedia** (2018–2019) | Head of Product Management. Owned the whole product function, 7–10 across product, design and engineering, reporting to C-level |
 | **DXC Technology** (2016–2018) | PMO advisor to Tier-1 German banks, MiFID II-era core modernization |
 | **Nuance** (2014–2015) | Enterprise delivery |
 | **Avira** (2012–2014) | Consumer-security delivery |
@@ -68,8 +75,15 @@ I turned KWG requirements into deterministic engineering specifications for audi
 | **PayPal, Dublin** (2007–2010) | Payments operations |
 
 🎓 PSPO II · PSM I · Executive MBA program, Postgraduate Certificate (Dublin Business School)
+📚 Part-time lecturer in e-commerce and online payments, Dublin Business School
 
 </details>
+
+## 🤝 How I lead
+
+Twice, under opposite conditions. At Oddspedia I held the line: the company's whole product function, seven to ten people across product, design and engineering, reporting to the C-level, and the hiring and the letting go were mine. At Cubic I held none, and 20+ people across vendors and partner organizations worked to a governance model I designed, because it was the fairest route to getting their own urgency heard.
+
+I would rather have the second kind. The programs worth running now cross boundaries the org chart does not reach, and inside those I want people who chose to be there.
 
 ## 🧪 The lab
 
@@ -83,17 +97,19 @@ I run my household's infrastructure estate the way a regulated hub-and-spoke org
 
 ## 🧭 Where this is going
 
-Regulators already ask organizations to *prove the operation matches its own policy*. Put AI in the delivery path and that question gets harder to answer: you need auditable decision paths, a deterministic core wherever reproducibility is non-negotiable, and drift control that fires without a human trigger. I want to be the person making those calls, and I already work this way.
+Regulators already ask organizations to *prove the operation matches its own policy*. Put AI in the delivery path and that question gets harder to answer: you need auditable decision paths, a deterministic core wherever reproducibility is non-negotiable, and drift control that fires without a human trigger.
+
+The EU AI Act names the half of this I care most about. Article 14 requires human oversight that works: people with the authority and the information to override a system. "AI at the edges, deterministic core" is my implementation of that sentence, and ISO/IEC 42001 is where an auditor tests it. I want to be the person making those calls, and I already work this way.
 
 ## 🎯 Domain focus
 
 | | |
 |---|---|
-| 💳 **Payments** | EPI / Wero · Instant Payments · PSD2 / PSD3 · account-centric transit |
-| 🤖 **AI Governance** | EU AI Act · auditable decision paths · human-in-the-loop review models |
-| 🛡️ **Resilience & Regulation** | DORA · KRITIS / NIS2 · BaFin · KWG · MiFID II |
+| 💳 **Payments** | EPI / Wero · Instant Payments · PSD2 / PSD3 / PSR · Verification of Payee · digital euro · account-centric transit |
+| 🤖 **AI Governance** | EU AI Act, Article 14 human oversight · ISO/IEC 42001 · auditable decision paths |
+| 🛡️ **Resilience & Regulation** | DORA · MaRisk / BAIT · BaFin · KWG · MiFID II · KRITIS / NIS2 |
 | ☁️ **Regulated Cloud** | GCP under supervision · GitOps · Infrastructure-as-Code |
-| 🧭 **Leadership** | Product & program leadership · B2G delivery · distressed-program turnaround |
+| 🧭 **Leadership** | Product team of 7–10 reporting to C-level · 20+ across vendors and partner organizations · €5M+ portfolio · distressed-program turnaround |
 
 <details>
 <summary><b>🤖 At a glance (machine-readable)</b></summary>
@@ -105,32 +121,48 @@ I include this block for AI-assisted sourcing and screening tools. It holds the 
 ```yaml
 name: Maurice Jobst
 location: Frankfurt am Main, Germany (Rhein-Main)
-languages: [German (native), English (fluent)]
+mobility: Rhein-Main on site; hybrid or remote Germany-wide; relocation for the right mandate
+languages: [German (native), English (native/bilingual)]
 current_role: Senior Product Manager, Cubic Transportation Systems (2026–present; at Cubic since 2021)
 experience_years: 15+
-open_to: Principal-level product and program mandates
+open_to: "Principal-level product and leadership mandates: Head of Product, practice
+          build-out, consulting engagement leadership"
+availability: one month's notice
 career: [PayPal 2007–2010, Tipico 2010–2012, Avira 2012–2014, Nuance 2014–2015,
          DXC Technology 2016–2018, Oddspedia (Head of Product) 2018–2019,
          Velvon Bank 2019–2020, Cubic Transportation Systems 2021–present]
-domains: [payments, instant payments, payment sovereignty (EPI/Wero),
+domains: [payments, instant payments, payment sovereignty (EPI/Wero), digital euro,
           product management, program management, AI governance,
           regulated-industry delivery, public-sector mobility, core banking]
-regulatory_context: [BaFin, KWG, KRITIS, NIS2, DORA, EU AI Act, MiFID II,
-                     PSD2/PSD3, Instant Payments Regulation, EPI]
+regulatory_context: [DORA, MaRisk, BAIT, BaFin, KWG, EU AI Act (Art. 14 human oversight),
+                     ISO/IEC 42001, MiFID II, PSD2/PSD3/PSR, Verification of Payee,
+                     Instant Payments Regulation, EPI, KRITIS, NIS2]
+leadership:
+  direct_reports: "Head of Product Management, Oddspedia 2018–2019: owned the company's
+                   entire product function, 7–10 across product, design/data and
+                   engineering, reporting to C-level, including hiring and exits."
+  matrix: "Led 20+ people across vendors and partner organizations through the
+           Deutschland-Ticket delivery governance, with no disciplinary line."
+  portfolio: "Directed a €5M+ B2G digital-mobility portfolio."
+  org_building: "Chartered to help establish Hamburg as Cubic's EMEA Technology
+                 Competence Center (2024 objectives); it operates today."
 highlights:
   - "3M+ user public-transit platform turned around from 1.6 to 4.0 app-store stars
      through the Deutschland-Ticket national rollout, zero downtime"
   - "€2M+ in annual client renewals secured through sustained SLA compliance"
   - "Audit-ready core banking on GCP under BaFin scrutiny for a banking-license acquisition"
+  - "Chartered to help establish Hamburg as Cubic's EMEA Technology Competence Center (2024)"
 credentials: [PSPO II, PSM I,
-              "Executive MBA program, Postgraduate Certificate (Dublin Business School)"]
-building_toward: Principal-level product and program mandates. Payments leadership
+              "Executive MBA program, Postgraduate Certificate (Dublin Business School)",
+              "Part-time lecturer, e-commerce and online payments, Dublin Business School"]
+building_toward: Principal-level product and leadership mandates. Payments leadership
                  and AI governance in regulated-industry delivery. Frankfurt / Rhein-Main.
-contact: {linkedin: "https://www.linkedin.com/in/mauricejobst/", email: "maurice.jobst@gmail.com"}
+contact: {linkedin: "https://www.linkedin.com/in/mauricejobst/", email: "maurice.jobst@gmail.com",
+          site: "https://maurice-jobst.github.io/"}
 ```
 
 </details>
 
 ## 📬 Reach me
 
-Start the conversation on **[LinkedIn](https://www.linkedin.com/in/mauricejobst/)**, or write to **[maurice.jobst@gmail.com](mailto:maurice.jobst@gmail.com)**.
+Start the conversation on **[LinkedIn](https://www.linkedin.com/in/mauricejobst/)**, or write to **[maurice.jobst@gmail.com](mailto:maurice.jobst@gmail.com)**. The long version, including a printable CV, lives at **[maurice-jobst.github.io](https://maurice-jobst.github.io/)**.

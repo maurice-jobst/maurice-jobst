@@ -18,8 +18,17 @@ So I fixed the operating model first, and the app second.
 ## What I did
 
 - **Designed and ran "Agile Shield"**, a delivery framework for stabilizing a troubled program under public and political scrutiny. It gave the program one governed boundary between stakeholder pressure and the delivery system: urgency reached the backlog through a single prioritized, accountable path, and the side channels stopped working.
+- **Led 20+ people across vendors and partner organizations** through that governance, including the Tier-1 managed-service provider running the platform underneath it.
 - **Held the program to a sustained SLA regime**, rebuilding delivery credibility one kept commitment at a time.
 - **Carried the platform through the Deutschland-Ticket national rollout with zero downtime**, while the user base scaled past **3M+ active users**.
+
+## On leading 20+ people I could not instruct
+
+None of those 20+ reported to me. They worked for the client, for the managed-service provider, and for partner organizations with their own priorities and their own bosses. I held no disciplinary line over any of them and no budget authority to buy compliance.
+
+I held the operating model instead. Agile Shield decided which work was real, in what order, and who had committed to it, and it did that in the open where every party saw the same list. Once the model became the only route to getting your urgency onto the backlog, people worked it. Authority followed the model.
+
+Any program crossing an organizational boundary hits this: a post-merger integration, a regulatory remediation, a bank and its outsourcing provider under DORA. Your reporting line stops at the boundary. The operating model carries across it, and building one people will actually use is the job.
 
 ## Outcome
 
