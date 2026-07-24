@@ -28,7 +28,7 @@ None of those 20+ reported to me. They worked for the client, for the managed-se
 
 I held the operating model instead. Agile Shield decided which work was real, in what order, and who had committed to it, and it did that in the open where every party saw the same list. Once the model became the only route to getting your urgency onto the backlog, people worked it. Authority followed the model.
 
-Any program crossing an organizational boundary hits this: a post-merger integration, a regulatory remediation, a bank and its outsourcing provider under DORA. Your reporting line stops at the boundary. The operating model carries across it, and building one people will actually use is the job.
+Any program crossing an organizational boundary hits this: a post-merger integration, a regulatory remediation, a bank and its outsourcing provider under DORA. Your reporting line stops at the boundary. The operating model carries across it, and the job is building one people work rather than route around.
 
 ## Outcome
 
