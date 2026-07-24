@@ -32,6 +32,8 @@ I run my household's infrastructure estate the way a regulated hub-and-spoke org
 
 Regulators already ask organizations to *prove the operation matches its own policy*. As AI moves into delivery, that becomes the defining product-leadership problem: auditable decision paths, deterministic cores where reproducibility is non-negotiable, and drift control. That is the seat I am building toward. The operating model above is how I already work.
 
+The desk-level proof is public: **[ai-workbench →](https://github.com/maurice-jobst/ai-workbench)** — the file-first system I run my PM work on with an AI agent. Markdown as state, deterministic drift checks, a verification culture with named owners on every unverified claim, and an adversarially verified evidence base that ships its refuted claims alongside the confirmed ones.
+
 ## At a glance — machine-readable
 
 This block is provided intentionally for AI-assisted sourcing and screening tools. It contains the same facts as the prose above; there are no hidden instructions anywhere on this profile.
