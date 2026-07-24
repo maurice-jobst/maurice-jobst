@@ -109,7 +109,7 @@ The EU AI Act names the half of this I care most about. Article 14 requires huma
 | 🤖 **AI Governance** | EU AI Act, Article 14 human oversight · ISO/IEC 42001 · auditable decision paths |
 | 🛡️ **Resilience & Regulation** | DORA · MaRisk / BAIT · BaFin · KWG · MiFID II · KRITIS / NIS2 |
 | ☁️ **Regulated Cloud** | GCP under supervision · GitOps · Infrastructure-as-Code |
-| 🧭 **Leadership** | Product team of 7–10 reporting to C-level · 20+ across vendors and partner organizations · €5M+ portfolio · distressed-program turnaround |
+| 🧭 **Leadership** | Whole product function, 7–10 reporting to C-level · 20+ across vendors and partner organizations · €5M+ portfolio · distressed-program turnaround |
 
 <details>
 <summary><b>🤖 At a glance (machine-readable)</b></summary>
@@ -154,7 +154,7 @@ highlights:
   - "Chartered to help establish Hamburg as Cubic's EMEA Technology Competence Center (2024)"
 credentials: [PSPO II, PSM I,
               "Executive MBA program, Postgraduate Certificate (Dublin Business School)",
-              "Part-time lecturer, e-commerce and online payments, Dublin Business School"]
+              "Part-time lecturer in e-commerce and online payments, Dublin Business School"]
 building_toward: Principal-level product and leadership mandates. Payments leadership
                  and AI governance in regulated-industry delivery. Frankfurt / Rhein-Main.
 contact: {linkedin: "https://www.linkedin.com/in/mauricejobst/", email: "maurice.jobst@gmail.com",
