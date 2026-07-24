@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-    <img alt="Maurice Jobst — Senior Product &amp; Program Leader. Payments, AI Governance, Regulated Delivery. Frankfurt am Main." src="assets/header-light.svg" width="100%">
+    <img alt="Maurice Jobst. Senior Product &amp; Program Leader. Payments, AI Governance, Regulated Delivery. Frankfurt am Main." src="assets/header-light.svg" width="100%">
   </picture>
 </p>
 
@@ -19,9 +19,9 @@
 
 ---
 
-15+ years across payments, fintech, cybersecurity and public-sector mobility, with payments as the deepest thread: PayPal, gaming-payments compliance, multi-gateway platforms, BaFin-supervised core banking, and today European payment sovereignty (EPI) in transit.
+I have spent 15+ years in payments, fintech, cybersecurity and public-sector mobility. Payments is the deepest thread: PayPal, gaming-payments compliance, multi-gateway platforms, BaFin-supervised core banking, and today European payment sovereignty (EPI) in transit.
 
-One doctrine runs through all of it: **AI at the edges, deterministic core.** I practice it every day in a production-grade lab I own, and I am building toward **Principal-level mandates** where payments and AI governance meet regulated delivery.
+I run one doctrine across all of it: **AI at the edges, deterministic core.** I practice it every day in a production-grade lab I own, and I am building toward **Principal-level mandates** where payments and AI governance meet regulated delivery.
 
 ## 💼 Now
 
@@ -45,7 +45,7 @@ flowchart LR
 
 ### 🚆 Cubic Transportation Systems · Senior Technical Project Manager (2021–2026)
 
-I took a **3M+ user** public-transit platform from **1.6 to 4.0 app-store stars** and carried it through Germany's politically charged *Deutschland-Ticket* national rollout with zero downtime. Sustained SLA compliance secured **€2M+ in annual client renewals**.
+I took a **3M+ user** public-transit platform from **1.6 to 4.0 app-store stars** and carried it through Germany's politically charged *Deutschland-Ticket* national rollout with zero downtime. The client renewed **€2M+ a year** after I held the program to a sustained SLA regime.
 
 📄 **[Delivery-governance case study →](case-studies/deutschland-ticket-turnaround.md)**
 
@@ -73,17 +73,17 @@ I turned KWG requirements into deterministic engineering specifications for audi
 
 ## 🧪 The lab
 
-I run my household's infrastructure estate the way a regulated hub-and-spoke organization should run: one reconcile shape, doctrine that lives once, AI under symmetric human and machine review, drift treated as the primary enemy. The scale is a household. The transferable asset is the operating model, and I practice it here before I argue for it anywhere else.
+I run my household's infrastructure estate the way a regulated hub-and-spoke organization should run: one reconcile shape, doctrine that lives once, AI under symmetric human and machine review, and drift as the primary enemy. The scale is a household. A cooperative banking group or a KRITIS operator has the same problem shape, so I practice the model here before I argue for it in a boardroom.
 
 📄 **[Case study: running an infrastructure estate like a regulated hub-and-spoke organization →](case-studies/hub-and-spoke-estate.md)**
 
 > [!TIP]
-> **Featured · [ai-workbench](https://github.com/maurice-jobst/ai-workbench)** — the file-first system I run my PM work on with an AI agent.
-> Markdown holds the state, a script catches drift at every session start, and every unverified claim carries the name of the person who has to confirm it. The design rests on **23 adversarially verified sources**, and the repo publishes the **2 claims that verification killed**.
+> **Featured: [ai-workbench](https://github.com/maurice-jobst/ai-workbench)**, the file-first system I run my PM work on with an AI agent.
+> Markdown holds the state, a script catches drift at every session start, and every unverified claim carries the name of the person who has to confirm it. I checked the design against **23 published sources**, three refute-prompted votes per load-bearing claim, and the repo publishes the **2 claims that lost**.
 
 ## 🧭 Where this is going
 
-Regulators already ask organizations to *prove the operation matches its own policy*. Put AI in the delivery path and that question gets harder to answer: you need auditable decision paths, deterministic cores where reproducibility is non-negotiable, and drift control that runs whether or not anyone remembers to run it. I want the seat where those calls get made, and I already work this way.
+Regulators already ask organizations to *prove the operation matches its own policy*. Put AI in the delivery path and that question gets harder to answer: you need auditable decision paths, a deterministic core wherever reproducibility is non-negotiable, and drift control that fires without a human trigger. I want to be the person making those calls, and I already work this way.
 
 ## 🎯 Domain focus
 
@@ -96,11 +96,11 @@ Regulators already ask organizations to *prove the operation matches its own pol
 | 🧭 **Leadership** | Product & program leadership · B2G delivery · distressed-program turnaround |
 
 <details>
-<summary><b>🤖 At a glance — machine-readable</b></summary>
+<summary><b>🤖 At a glance (machine-readable)</b></summary>
 
 <br>
 
-I include this block for AI-assisted sourcing and screening tools. It holds the same facts as the prose above, and this profile carries no hidden instructions anywhere.
+I include this block for AI-assisted sourcing and screening tools. It holds the same facts as the prose above, and this profile carries no hidden instructions.
 
 ```yaml
 name: Maurice Jobst
