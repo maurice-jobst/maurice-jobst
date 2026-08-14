@@ -97,7 +97,7 @@ I run my household's infrastructure estate the way a regulated hub-and-spoke org
 
 > [!TIP]
 > **New: BEMBEL**, a free iPhone city app for Frankfurt / Rhein-Main (shade, water, air: open data made usable), which I lead as PM and architect with a three-person engineering team. It applies the doctrine to full product delivery: AI agents write the implementation, a human reviews every pull request, and CI holds the format, schema and data-provenance gates.
-> Its community layer, **bembel-data**, carries Frankfurt kiosk culture as pull requests: every entry cites a source, and each account gets one rating per entry because a CI check rejects any pull request touching a rating file named for someone else, maintainers included. A review platform would run that as server logic and a moderation team. Here it is two standard-library Python scripts and the git history. Both repositories stay private until the v1.0 release in March 2027.
+> Its community layer, **bembel-data**, carries Frankfurt kiosk culture as pull requests: every entry cites a source, and each account gets one rating per entry because a CI check rejects any pull request touching a rating file named for someone else, maintainers included. That review governance is two standard-library Python scripts and the git history, with no server and no moderation queue behind it. Both repositories stay private until the v1.0 release in March 2027.
 
 ## 🧭 Where this is going
 
