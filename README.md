@@ -95,6 +95,10 @@ I run my household's infrastructure estate the way a regulated hub-and-spoke org
 > **Featured: [ai-workbench](https://github.com/maurice-jobst/ai-workbench)**, the file-first system I run my PM work on with an AI agent.
 > Markdown holds the state, a script catches drift at every session start, and every unverified claim carries the name of the person who has to confirm it. I checked the design against **23 published sources**, three refute-prompted votes per load-bearing claim, and the repo publishes the **2 claims that lost**.
 
+> [!TIP]
+> **New: BEMBEL**, a free iPhone city app for Frankfurt / Rhein-Main (shade, water, air: open data made usable), which I lead as PM and architect with a three-person engineering team. It applies the doctrine to full product delivery: AI agents write the implementation, a human reviews every pull request, and CI holds the format, schema and data-provenance gates.
+> Its community layer, **bembel-data**, carries Frankfurt kiosk culture as pull requests: every entry cites a source, and each account gets one rating per entry because a CI check rejects any pull request touching a rating file named for someone else, maintainers included. A review platform would run that as server logic and a moderation team. Here it is two standard-library Python scripts and the git history. Both repositories stay private until the v1.0 release in March 2027.
+
 ## 🧭 Where this is going
 
 Regulators already ask organizations to *prove the operation matches its own policy*. Put AI in the delivery path and that question gets harder to answer: you need auditable decision paths, a deterministic core wherever reproducibility is non-negotiable, and drift control that fires without a human trigger.
@@ -155,6 +159,12 @@ highlights:
 credentials: [PSPO II, PSM I,
               "Executive MBA program, Postgraduate Certificate (Dublin Business School)",
               "Part-time lecturer in e-commerce and online payments, Dublin Business School"]
+open_source:
+  - "ai-workbench: file-first PM system run with an AI agent (github.com/maurice-jobst/ai-workbench)"
+  - "bembel-data: community datasets for Frankfurt, with entries and ratings as pull
+     requests and review rules enforced by CI; repo private until v1.0 (March 2027)"
+  - "BEMBEL: iPhone city app for Frankfurt/Rhein-Main, written by AI agents under human
+     review; repo private until v1.0 (March 2027)"
 building_toward: Principal-level product and leadership mandates. Payments leadership
                  and AI governance in regulated-industry delivery. Frankfurt / Rhein-Main.
 contact: {linkedin: "https://www.linkedin.com/in/mauricejobst/", email: "maurice.jobst@gmail.com",
