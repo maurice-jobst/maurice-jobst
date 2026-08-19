@@ -16,20 +16,22 @@
 <p align="center">
   <b>I translate regulatory mandates into shipped systems.</b><br>
   📍 Frankfurt am Main · Rhein-Main · Germany-wide hybrid · 🗣️ German and English, both at native level<br>
-  🟢 Open to Principal-level product and leadership mandates: Head of Product, practice build-out, engagement leadership<br>
+  🟢 Open to Principal-level product and leadership mandates: Head of Product, Head of Payments, practice build-out<br>
   ⏱️ One month's notice
 </p>
 
 ---
 
-I have spent 15+ years in payments, fintech, cybersecurity and public-sector mobility. Payments is the deepest thread: PayPal, gaming-payments compliance, multi-gateway platforms, BaFin-supervised core banking, and today European payment sovereignty (EPI) in transit.
+I have spent 15+ years in payments, fintech, cybersecurity and public-sector mobility. Payments is the deepest thread: PayPal, gaming-payments compliance, multi-gateway platforms, BaFin-supervised core banking, and today open-loop transit payments owned end to end, with European payment sovereignty (EPI).
 
 I run one doctrine across all of it: **AI at the edges, deterministic core.** I practice it every day in a production-grade lab I own, and I am building toward **Principal-level mandates** where payments and AI governance meet regulated delivery.
 
 ## 💼 Now
 
 **Senior Product Manager, Cubic Transportation Systems** (2026–present, at Cubic since 2021)
-Umo Pass, EMEA payment sovereignty: European Payments Initiative (EPI) digital-identity integration with account-centric transit infrastructure.
+Umo Pass, EMEA payment sovereignty: open-loop payments owned end to end, from EMV acceptance at the validator to the account-based back office, with European Payments Initiative (EPI) digital-identity integration. Authored the product organization's AI usage standard, in use today.
+
+📄 **[Open-loop payments case study →](case-studies/open-loop-payments-end-to-end.md)**
 
 ## 📈 Track record
 
@@ -96,8 +98,8 @@ I run my household's infrastructure estate the way a regulated hub-and-spoke org
 > Markdown holds the state, a script catches drift at every session start, and every unverified claim carries the name of the person who has to confirm it. I checked the design against **23 published sources**, three refute-prompted votes per load-bearing claim, and the repo publishes the **2 claims that lost**.
 
 > [!TIP]
-> **New: BEMBEL**, a free iPhone city app for Frankfurt / Rhein-Main (shade, water, air: open data made usable), which I lead as PM and architect with a three-person engineering team. It applies the doctrine to full product delivery: AI agents write the implementation, a human reviews every pull request, and CI holds the format, schema and data-provenance gates.
-> Its community layer, **bembel-data**, carries Frankfurt kiosk culture as pull requests: every entry cites a source, and each account gets one rating per entry because a CI check rejects any pull request touching a rating file named for someone else, maintainers included. That review governance is two standard-library Python scripts and the git history, with no server and no moderation queue behind it. Both repositories stay private until the v1.0 release in March 2027.
+> **New: [BEMBEL](https://github.com/maurice-jobst/bembel)**, a free iPhone city app for Frankfurt / Rhein-Main (shade, water, air: open data made usable), which I lead as PM and architect with a three-person engineering team. It applies the doctrine to full product delivery: AI agents write the implementation, a human reviews every pull request, and CI holds the format, schema and data-provenance gates.
+> Its community layer, **[bembel-data](https://github.com/maurice-jobst/bembel-data)**, carries Frankfurt kiosk culture as pull requests: every entry cites a source, and each account gets one rating per entry because a CI check rejects any pull request touching a rating file named for someone else, maintainers included. That review governance is two standard-library Python scripts and the git history, with no server and no moderation queue behind it. Both repositories are public; v1.0 is targeted for March 2027.
 
 ## 🧭 Where this is going
 
@@ -109,7 +111,7 @@ The EU AI Act names the half of this I care most about. Article 14 requires huma
 
 | | |
 |---|---|
-| 💳 **Payments** | EPI / Wero · Instant Payments · PSD2 / PSD3 / PSR · Verification of Payee · digital euro · account-centric transit |
+| 💳 **Payments** | EPI / Wero · open-loop EMV · Instant Payments · PSD2 / PSD3 / PSR · Verification of Payee · digital euro · account-centric transit |
 | 🤖 **AI Governance** | EU AI Act, Article 14 human oversight · ISO/IEC 42001 · auditable decision paths |
 | 🛡️ **Resilience & Regulation** | DORA · MaRisk / BAIT · BaFin · KWG · MiFID II · KRITIS / NIS2 |
 | ☁️ **Regulated Cloud** | GCP under supervision · GitOps · Infrastructure-as-Code |
@@ -129,13 +131,14 @@ mobility: Rhein-Main on site; hybrid or remote Germany-wide; relocation for the 
 languages: [German (native), English (native/bilingual)]
 current_role: Senior Product Manager, Cubic Transportation Systems (2026–present; at Cubic since 2021)
 experience_years: 15+
-open_to: "Principal-level product and leadership mandates: Head of Product, practice
-          build-out, consulting engagement leadership"
+open_to: "Principal-level product and leadership mandates: Head of Product, Head of
+          Payments, practice build-out"
 availability: one month's notice
 career: [PayPal 2007–2010, Tipico 2010–2012, Avira 2012–2014, Nuance 2014–2015,
          DXC Technology 2016–2018, Oddspedia (Head of Product) 2018–2019,
          Velvon Bank 2019–2020, Cubic Transportation Systems 2021–present]
-domains: [payments, instant payments, payment sovereignty (EPI/Wero), digital euro,
+domains: [payments, open-loop payments (EMV), instant payments,
+          payment sovereignty (EPI/Wero), digital euro,
           product management, program management, AI governance,
           regulated-industry delivery, public-sector mobility, core banking]
 regulatory_context: [DORA, MaRisk, BAIT, BaFin, KWG, EU AI Act (Art. 14 human oversight),
@@ -156,15 +159,17 @@ highlights:
   - "€2M+ in annual client renewals secured through sustained SLA compliance"
   - "Audit-ready core banking on GCP under BaFin scrutiny for a banking-license acquisition"
   - "Chartered to help establish Hamburg as Cubic's EMEA Technology Competence Center (2024)"
+  - "Authored the product organization's AI usage standard, in use today"
 credentials: [PSPO II, PSM I,
               "Executive MBA program, Postgraduate Certificate (Dublin Business School)",
               "Part-time lecturer in e-commerce and online payments, Dublin Business School"]
 open_source:
   - "ai-workbench: file-first PM system run with an AI agent (github.com/maurice-jobst/ai-workbench)"
   - "bembel-data: community datasets for Frankfurt, with entries and ratings as pull
-     requests and review rules enforced by CI; repo private until v1.0 (March 2027)"
+     requests and review rules enforced by CI (github.com/maurice-jobst/bembel-data);
+     v1.0 targeted March 2027"
   - "BEMBEL: iPhone city app for Frankfurt/Rhein-Main, written by AI agents under human
-     review; repo private until v1.0 (March 2027)"
+     review (github.com/maurice-jobst/bembel); v1.0 targeted March 2027"
 building_toward: Principal-level product and leadership mandates. Payments leadership
                  and AI governance in regulated-industry delivery. Frankfurt / Rhein-Main.
 contact: {linkedin: "https://www.linkedin.com/in/mauricejobst/", email: "maurice.jobst@gmail.com",
