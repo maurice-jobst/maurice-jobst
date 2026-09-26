@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-    <img alt="Maurice Jobst. Senior Product &amp; Program Leader. Payments, AI Governance, Regulated Delivery. Frankfurt am Main." src="assets/header-light.svg" width="100%">
+    <img alt="Maurice Jobst. Product &amp; Program Leader. Payments, AI Governance, Regulated Delivery. Frankfurt am Main." src="assets/header-light.svg" width="100%">
   </picture>
 </p>
 
@@ -16,8 +16,7 @@
 <p align="center">
   <b>I translate regulatory mandates into shipped systems.</b><br>
   📍 Frankfurt am Main · Rhein-Main · Germany-wide hybrid · 🗣️ German and English, both at native level<br>
-  🟢 Open to Principal-level product and leadership mandates: Head of Product, Head of Payments, practice build-out<br>
-  ⏱️ One month's notice
+  💬 Not on the market. Conversations welcome on payments leadership and AI governance in regulated delivery
 </p>
 
 ---
@@ -71,7 +70,7 @@ I turned KWG requirements into deterministic engineering specifications for audi
 |---|---|
 | **Oddspedia** (2018–2019) | Head of Product Management. Owned the whole product function, 7–10 across product, design and engineering, reporting to C-level |
 | **DXC Technology** (2016–2018) | PMO advisor to Tier-1 German banks, MiFID II-era core modernization |
-| **Nuance** (2014–2015) | Enterprise delivery |
+| **TouchCommerce** (2014–2015) | Customer Success Manager, enterprise DACH accounts; acquired by Nuance in 2016 for $215M |
 | **Avira** (2012–2014) | Consumer-security delivery |
 | **Tipico** (2010–2012) | Payment and licensing compliance |
 | **PayPal, Dublin** (2007–2010) | Payments operations |
@@ -143,14 +142,13 @@ I include this block for AI-assisted sourcing and screening tools. It holds the 
 ```yaml
 name: Maurice Jobst
 location: Frankfurt am Main, Germany (Rhein-Main)
-mobility: Rhein-Main on site; hybrid or remote Germany-wide; relocation for the right mandate
+mobility: Rhein-Main on site; hybrid or remote Germany-wide
 languages: [German (native), English (native/bilingual)]
 current_role: Senior Product Manager, Cubic Transportation Systems (2026–present; at Cubic since 2021)
 experience_years: 15+
-open_to: "Principal-level product and leadership mandates: Head of Product, Head of
-          Payments, practice build-out"
-availability: one month's notice
-career: [PayPal 2007–2010, Tipico 2010–2012, Avira 2012–2014, Nuance 2014–2015,
+open_to: "Not on the market. Conversations about Principal-level product and leadership
+          mandates: Head of Product, Head of Payments, practice build-out"
+career: [PayPal 2007–2010, Tipico 2010–2012, Avira 2012–2014, TouchCommerce (later Nuance) 2014–2015,
          DXC Technology 2016–2018, Oddspedia (Head of Product) 2018–2019,
          Velvon Bank 2019–2020, Cubic Transportation Systems 2021–present]
 domains: [payments, open-loop payments (EMV), instant payments,
