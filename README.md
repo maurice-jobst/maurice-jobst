@@ -77,7 +77,7 @@ I turned KWG requirements into deterministic engineering specifications for audi
 | **PayPal, Dublin** (2007–2010) | Payments operations |
 
 🎓 PSPO II · PSM I · Executive MBA program, Postgraduate Certificate (Dublin Business School)
-📚 Part-time lecturer in e-commerce and online payments, Dublin Business School
+📚 Part-time lecturer in e-commerce and online payments, Dublin Business School (2009–2011, alongside the MBA)
 
 </details>
 
@@ -178,7 +178,7 @@ highlights:
   - "Authored the product organization's AI usage standard, in use today"
 credentials: [PSPO II, PSM I,
               "Executive MBA program, Postgraduate Certificate (Dublin Business School)",
-              "Part-time lecturer in e-commerce and online payments, Dublin Business School"]
+              "Part-time lecturer in e-commerce and online payments, Dublin Business School (2009–2011)"]
 open_source:
   - "ai-workbench: file-first PM system run with an AI agent (github.com/maurice-jobst/ai-workbench)"
   - "bembel-data: community datasets for Frankfurt, with entries and ratings as pull

@@ -32,7 +32,7 @@ Any program crossing an organizational boundary hits this: a post-merger integra
 
 ## Outcome
 
-| | Before | After |
+| Metric | Before | After |
 |---|---|---|
 | **App-store rating** | 1.6 ★ | **4.0 ★** |
 | **Client relationship** | distressed portfolio, renewals at risk | **€2M+ in annual renewals secured** |
