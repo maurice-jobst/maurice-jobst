@@ -38,7 +38,7 @@ Umo Pass, EMEA payment sovereignty: open-loop payments owned end to end, from EM
 ```mermaid
 flowchart LR
     A["2007–2015<br/>PayPal · Tipico · Avira<br/>payments ops, licensing<br/>compliance, consumer security"]
-    B["2016–2019<br/>DXC · Oddspedia<br/>MiFID II core modernization<br/>for Tier-1 banks"]
+    B["2016–2019<br/>DXC · Oddspedia<br/>MiFID II modernization for Tier-1 banks,<br/>then Head of Product"]
     C["2019–2020<br/>Velvon Bank<br/>BaFin-supervised core<br/>banking on GCP"]
     D["2021–2026<br/>Cubic<br/>3M+ user transit platform<br/>1.6 to 4.0 stars"]
     E(["2026 onward<br/>EPI payment sovereignty<br/>x AI governance"])
@@ -77,9 +77,25 @@ I turned KWG requirements into deterministic engineering specifications for audi
 | **PayPal, Dublin** (2007–2010) | Payments operations |
 
 🎓 PSPO II · PSM I · Executive MBA program, Postgraduate Certificate (Dublin Business School)
-📚 Part-time lecturer in e-commerce and online payments, Dublin Business School
+📚 Part-time lecturer in e-commerce and online payments, Dublin Business School (2009–2011, alongside the MBA)
 
 </details>
+
+## 🗣️ What colleagues say
+
+> "His thinking was holistic — not just as a project manager, but as a true project strategist."
+>
+> **Marco Omilipo**, Senior Bid Manager, Cubic Transportation Systems
+
+> "He doesn't just manage projects — he enables people to do their best work."
+>
+> **Ivan Demin**, Lead Java Fullstack Developer
+
+> "He was Head of Product Management at the time, and I reported directly to him. One of his best qualities is how easily he can motivate a team to give 101%."
+>
+> **Jonko Bukovski**, Head of Product Design, Oddspedia
+
+Quoted verbatim from LinkedIn recommendations, trimmed for length. The full set is on **[the site](https://maurice-jobst.github.io/#voices)**.
 
 ## 🤝 How I lead
 
@@ -162,7 +178,7 @@ highlights:
   - "Authored the product organization's AI usage standard, in use today"
 credentials: [PSPO II, PSM I,
               "Executive MBA program, Postgraduate Certificate (Dublin Business School)",
-              "Part-time lecturer in e-commerce and online payments, Dublin Business School"]
+              "Part-time lecturer in e-commerce and online payments, Dublin Business School (2009–2011)"]
 open_source:
   - "ai-workbench: file-first PM system run with an AI agent (github.com/maurice-jobst/ai-workbench)"
   - "bembel-data: community datasets for Frankfurt, with entries and ratings as pull
