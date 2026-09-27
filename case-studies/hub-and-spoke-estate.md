@@ -52,3 +52,7 @@ The federation answers are the enterprise answers at a smaller scale:
 Drift is the primary enemy at any scale, in config, in docs or in policy, because it is one gap wearing different clothes: what the organization believes about itself against what is running.
 
 An operating model that depends on people remembering the doctrine will drift. Put the doctrine in a hub, dock the units through one landing path, and let a machine do the checking. Then the next unit, or the next agent, costs you a day.
+
+---
+
+*Related: [the Deutschland-Ticket turnaround](deutschland-ticket-turnaround.md) ran the same doctrine at organizational scale; [turning a banking act into engineering specifications](banking-act-to-specifications.md) applies it to a ledger.*

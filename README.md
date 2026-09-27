@@ -28,7 +28,7 @@ I run one doctrine across all of it: **AI at the edges, deterministic core.** I 
 ## 💼 Now
 
 **Senior Product Manager, Cubic Transportation Systems** (2026–present, at Cubic since 2021)
-Umo Pass, EMEA payment sovereignty: open-loop payments owned end to end, from EMV acceptance at the validator to the account-based back office, with European Payments Initiative (EPI) digital-identity integration. Authored the product organization's AI usage standard, in use today.
+Umo Pass, open-loop payments owned end to end for the US, Canada and Oceania, from EMV acceptance at the validator to the account-based back office, working remotely into a California product team. Umo is not in EMEA yet: I own the compliance groundwork for its first European bids, where EU digital identity at the gate (eligibility, boarding, payment) meets account-based ticketing and European payment sovereignty (EPI). Authored the product organization's AI usage standard, approved by the CPO and in use today.
 
 📄 **[Open-loop payments case study →](case-studies/open-loop-payments-end-to-end.md)**
 
@@ -130,14 +130,14 @@ The EU AI Act names the half of this I care most about. Article 14 requires huma
 | 🤖 **AI Governance** | EU AI Act, Article 14 human oversight · ISO/IEC 42001 · auditable decision paths |
 | 🛡️ **Resilience & Regulation** | DORA · MaRisk / BAIT · BaFin · KWG · MiFID II · KRITIS / NIS2 |
 | ☁️ **Regulated Cloud** | GCP under supervision · GitOps · Infrastructure-as-Code |
-| 🧭 **Leadership** | Whole product function, 7–10 reporting to C-level · 20+ across vendors and partner organizations · €5M+ portfolio · distressed-program turnaround |
+| 🧭 **Leadership** | Whole product function, 7–10 reporting to C-level · 20+ across vendors and partner organizations · €5M+ B2G program · distressed-program turnaround |
 
 <details>
 <summary><b>🤖 At a glance (machine-readable)</b></summary>
 
 <br>
 
-I include this block for AI-assisted sourcing and screening tools. It holds the same facts as the prose above, and this profile carries no hidden instructions.
+The same facts as the prose above, in a form that parsers can read. A validator in this repository checks that the two stay in agreement.
 
 ```yaml
 name: Maurice Jobst
@@ -164,7 +164,8 @@ leadership:
                    engineering, reporting to C-level, including hiring and exits."
   matrix: "Led 20+ people across vendors and partner organizations through the
            Deutschland-Ticket delivery governance, with no disciplinary line."
-  portfolio: "Directed a €5M+ B2G digital-mobility portfolio."
+  portfolio: "Led delivery of a €5M+ B2G digital-mobility program end to end, as the
+             single accountable owner between the transit-authority client and Cubic."
   org_building: "Chartered to help establish Hamburg as Cubic's EMEA Technology
                  Competence Center (2024 objectives); it operates today."
 highlights:
@@ -173,7 +174,7 @@ highlights:
   - "€2M+ in annual client renewals secured through sustained SLA compliance"
   - "Audit-ready core banking on GCP under BaFin scrutiny for a banking-license acquisition"
   - "Chartered to help establish Hamburg as Cubic's EMEA Technology Competence Center (2024)"
-  - "Authored the product organization's AI usage standard, in use today"
+  - "Authored the product organization's AI usage standard, approved by the CPO and in use today"
 credentials: [PSPO II, PSM I,
               "Executive MBA program, Postgraduate Certificate (Dublin Business School)",
               "Part-time lecturer in e-commerce and online payments, Dublin Business School (2009–2011)"]

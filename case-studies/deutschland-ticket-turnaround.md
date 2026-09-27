@@ -5,7 +5,7 @@
 
 ## The situation
 
-A flagship German public-transit app sat at **1.6 app-store stars** inside a distressed **€5M+ B2G digital-mobility portfolio**. The public-sector client had lost confidence, and the user base said so in public, one star at a time.
+A flagship German public-transit app sat at **1.6 app-store stars** inside a distressed **€5M+ B2G digital-mobility program**. The public-sector client had lost confidence, and the user base said so in public, one star at a time.
 
 Then Germany announced the *Deutschland-Ticket*: a national fare product with a fixed, government-set launch date. The app that was failing its users now sat on the critical path of a political commitment.
 
@@ -35,7 +35,7 @@ Any program crossing an organizational boundary hits this: a post-merger integra
 | Metric | Before | After |
 |---|---|---|
 | **App-store rating** | 1.6 ★ | **4.0 ★** |
-| **Client relationship** | distressed portfolio, renewals at risk | **€2M+ in annual renewals secured** |
+| **Client relationship** | distressed program, renewals at risk | **€2M+ in annual renewals secured** |
 | **National launch** | platform on the political critical path | shipped with zero downtime, 3M+ users |
 
 Users voted that rating change in public. The renewals followed sustained SLA compliance rather than a pitch. The launch carried national political weight and produced no incident anyone had to explain to a regulator or a journalist.
