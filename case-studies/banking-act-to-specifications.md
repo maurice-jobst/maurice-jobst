@@ -35,7 +35,7 @@ Three rules, and they have survived every regulated program I have run since.
 
 ## What this case study cannot show you
 
-No star rating, no renewal figure. The [Deutschland-Ticket turnaround](deutschland-ticket-turnaround.md) alongside this one carries the numbers. This engagement carries the method, and the method is the part that transfers.
+No star rating, no renewal figure, and no audit. The parent stopped the German launch in early 2020, before the bank opened, so no examiner ever tested the build in operation. The [Deutschland-Ticket turnaround](deutschland-ticket-turnaround.md) alongside this one carries the numbers. This engagement carries the method, and the method is the part that transfers.
 
 ## Why it matters again now
 

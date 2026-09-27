@@ -35,6 +35,10 @@ FACTS: list[tuple[str, list[str]]] = [
     ("not in EMEA yet", ["README.md", "case-studies/open-loop-payments-end-to-end.md"]),
     ("approved by the CPO", ["README.md"]),
     ("v1.0 is targeted for March 2027", ["README.md"]),
+    ("stopped the German launch in early 2020", ["README.md", "case-studies/banking-act-to-specifications.md"]),
+    ("employed or freelance", ["README.md"]),
+    ("Sabbatical", ["README.md"]),
+    ("Pause during COVID", ["README.md"]),
 ]
 
 # Phrases that drifted once and must not come back. Pair each with the reason.
@@ -45,6 +49,12 @@ FORBIDDEN: list[tuple[str, str]] = [
     ("Directed a €5M+", "led delivery of a program; did not direct a portfolio"),
     ("EPI) digital-identity", "the identity layer is EU digital identity, EPI is the payment rail"),
     ("hidden instructions", "reads as a tell to screening tools and adds nothing for people"),
+    ("Not on the market", "open to mandates, employed or freelance; the old line blocked both"),
+    ("$215M", "the Nuance acquisition happened after the role ended"),
+    ("PMO advisor", "the role was PMO officer and assistant to the director"),
+    ("Users voted that rating change", "the rating followed product fixes and a well-timed review prompt; say so"),
+    ("refute-prompted votes", "say what cast the votes and who reviewed them"),
+    ("community layer", "no second contributor yet; it is a data layer designed for community"),
 ]
 
 # YAML keys whose value must contain a phrase that also appears in the README prose.

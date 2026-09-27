@@ -16,7 +16,7 @@
 <p align="center">
   <b>I translate regulatory mandates into shipped systems.</b><br>
   📍 Frankfurt am Main · Rhein-Main · Germany-wide hybrid · 🗣️ German and English, both at native level<br>
-  💬 Not on the market. Conversations welcome on payments leadership and AI governance in regulated delivery
+  💬 Employed, and open to Principal-level mandates in payments leadership and AI governance, employed or freelance
 </p>
 
 ---
@@ -37,7 +37,7 @@ Umo Pass, open-loop payments owned end to end for the US, Canada and Oceania, fr
 ```mermaid
 flowchart LR
     A["2007–2015<br/>PayPal · Tipico · Avira<br/>payments ops, licensing<br/>compliance, consumer security"]
-    B["2016–2019<br/>DXC · Oddspedia<br/>MiFID II modernization for Tier-1 banks,<br/>then Head of Product"]
+    B["2016–2019<br/>DXC · Oddspedia<br/>PMO in Tier-1 bank modernization,<br/>then Head of Product"]
     C["2019–2020<br/>Velvon Bank<br/>BaFin-supervised core<br/>banking on GCP"]
     D["2021–2026<br/>Cubic<br/>3M+ user transit platform<br/>1.6 to 4.0 stars"]
     E(["2026 onward<br/>EPI payment sovereignty<br/>x AI governance"])
@@ -51,26 +51,28 @@ flowchart LR
 
 I took a **3M+ user** public-transit platform from **1.6 to 4.0 app-store stars** and carried it through Germany's politically charged *Deutschland-Ticket* national rollout with zero downtime. The client renewed **€2M+ a year** after I held the program to a sustained SLA regime.
 
-I led **20+ people across vendors and partner organizations** through that delivery governance, holding no disciplinary line over any of them. Cubic then chartered me in the 2024 objectives to help stand up **Hamburg as its EMEA Technology Competence Center**, which runs today.
+I led **20+ people across vendors and partner organizations** through that delivery governance, holding no disciplinary line over any of them. The program ran cash-positive, and its margin funded the build-out of **Hamburg as Cubic's EMEA Technology Competence Center**, which Cubic chartered me in the 2024 objectives to help establish. It runs today.
 
 📄 **[Delivery-governance case study →](case-studies/deutschland-ticket-turnaround.md)**
 
 ### 🏦 Velvon Bank · Product Manager (2019–2020)
 
-I turned KWG requirements into deterministic engineering specifications for audit-ready core banking on GCP, under BaFin scrutiny, for a German banking-license acquisition.
+I turned KWG requirements into deterministic engineering specifications for audit-ready core banking on GCP, under BaFin scrutiny, for a German banking-license acquisition. The parent stopped the German launch in early 2020, before the bank opened.
 
 📄 **[Payments case study: turning a banking act into engineering specifications →](case-studies/banking-act-to-specifications.md)**
 
 <details>
-<summary><b>📚 Earlier (2007–2019) and credentials</b></summary>
+<summary><b>📚 Earlier roles (2007–2019), the two gaps, and credentials</b></summary>
 
 <br>
 
 | Where | What |
 |---|---|
+| 2020–2021 | Pause during COVID, after the Velvon project was stopped |
 | **Oddspedia** (2018–2019) | Head of Product Management. Owned the whole product function, 7–10 across product, design and engineering, reporting to C-level |
-| **DXC Technology** (2016–2018) | PMO advisor to Tier-1 German banks, MiFID II-era core modernization |
-| **TouchCommerce** (2014–2015) | Customer Success Manager, enterprise DACH accounts; acquired by Nuance in 2016 for $215M |
+| **DXC Technology** (2016–2018) | PMO officer and assistant to the director on MiFID II-era core modernization for Tier-1 German banks |
+| 2015–2016 | Sabbatical |
+| **TouchCommerce** (2014–2015) | Customer Success Manager, enterprise DACH accounts, a two-person German office serving Vodafone, Sky and Sunrise |
 | **Avira** (2012–2014) | Consumer-security delivery |
 | **Tipico** (2010–2012) | Payment and licensing compliance |
 | **PayPal, Dublin** (2007–2010) | Payments operations |
@@ -110,17 +112,17 @@ I run my household's infrastructure estate the way a regulated hub-and-spoke org
 
 > [!TIP]
 > **Featured: [ai-workbench](https://github.com/maurice-jobst/ai-workbench)**, the file-first system I run my PM work on with an AI agent.
-> Markdown holds the state, a script catches drift at every session start, and every unverified claim carries the name of the person who has to confirm it. I checked the design against **23 published sources**, three refute-prompted votes per load-bearing claim, and the repo publishes the **2 claims that lost**.
+> Markdown holds the state, a script catches drift at every session start, and every unverified claim carries the name of the person who has to confirm it. I checked the design against **23 published sources**: for each load-bearing claim, a local, air-gapped model was prompted three times to refute it against a retrieval index of the rules, I reviewed every verdict, and the repo publishes the **2 claims that lost**.
 
 > [!TIP]
 > **New: [BEMBEL](https://github.com/maurice-jobst/bembel)**, a free iPhone city app for Frankfurt / Rhein-Main (shade, water, air: open data made usable), which I lead as PM and architect with a three-person engineering team. It applies the doctrine to full product delivery: AI agents write the implementation, a human reviews every pull request, and CI holds the format, schema and data-provenance gates.
-> Its community layer, **[bembel-data](https://github.com/maurice-jobst/bembel-data)**, carries Frankfurt kiosk culture as pull requests: every entry cites a source, and each account gets one rating per entry because a CI check rejects any pull request touching a rating file named for someone else, maintainers included. That review governance is two standard-library Python scripts and the git history, with no server and no moderation queue behind it. Both repositories are public; v1.0 is targeted for March 2027.
+> Its data layer, **[bembel-data](https://github.com/maurice-jobst/bembel-data)**, is designed to carry Frankfurt kiosk culture as pull requests: every entry cites a source, and each account gets one rating per entry because a CI check rejects any pull request touching a rating file named for someone else, maintainers included. That review governance is two standard-library Python scripts and the git history, with no server and no moderation queue behind it. The community is not there yet; the rules are, and they are public. Both repositories are public; v1.0 is targeted for March 2027.
 
 ## 🧭 Where this is going
 
 Regulators already ask organizations to *prove the operation matches its own policy*. Put AI in the delivery path and that question gets harder to answer: you need auditable decision paths, a deterministic core wherever reproducibility is non-negotiable, and drift control that fires without a human trigger.
 
-The EU AI Act names the half of this I care most about. Article 14 requires human oversight that works: people with the authority and the information to override a system. "AI at the edges, deterministic core" is my implementation of that sentence, and ISO/IEC 42001 is where an auditor tests it. I want to be the person making those calls, and I already work this way.
+The EU AI Act names the half of this I care most about. Article 14 requires, for high-risk systems, human oversight that works: people with the authority and the information to override a system. Nothing I run today falls under that article. I apply its standard anyway, because the mandate reaches regulated delivery before the law does: "AI at the edges, deterministic core" is my implementation of that sentence, and ISO/IEC 42001 is where an auditor would test it. I want to be the person making those calls, and I already work this way.
 
 ## 🎯 Domain focus
 
@@ -131,6 +133,9 @@ The EU AI Act names the half of this I care most about. Article 14 requires huma
 | 🛡️ **Resilience & Regulation** | DORA · MaRisk / BAIT · BaFin · KWG · MiFID II · KRITIS / NIS2 |
 | ☁️ **Regulated Cloud** | GCP under supervision · GitOps · Infrastructure-as-Code |
 | 🧭 **Leadership** | Whole product function, 7–10 reporting to C-level · 20+ across vendors and partner organizations · €5M+ B2G program · distressed-program turnaround |
+
+**Delivered under:** KWG and BaFin supervision, MaRisk / BAIT, MiFID II-era bank modernization, gaming-license and payment compliance, PSD2, public-sector procurement and VDV standards.
+**Advisory and bid work, not yet delivery:** DORA, KRITIS / NIS2, Instant Payments Regulation, Verification of Payee, digital euro, EU AI Act and ISO/IEC 42001, for transit authorities in Germany, the UK and Ireland, Cubic internally, and bids in three further markets.
 
 <details>
 <summary><b>🤖 At a glance (machine-readable)</b></summary>
@@ -146,8 +151,8 @@ mobility: Rhein-Main on site; hybrid or remote Germany-wide
 languages: [German (native), English (native/bilingual)]
 current_role: Senior Product Manager, Cubic Transportation Systems (2026–present; at Cubic since 2021)
 experience_years: 15+
-open_to: "Not on the market. Conversations about Principal-level product and leadership
-          mandates: Head of Product, Head of Payments, practice build-out"
+open_to: "Employed. Open to Principal-level product and leadership mandates, employed or
+          freelance: Head of Product, Head of Payments, practice build-out"
 career: [PayPal 2007–2010, Tipico 2010–2012, Avira 2012–2014, TouchCommerce (later Nuance) 2014–2015,
          DXC Technology 2016–2018, Oddspedia (Head of Product) 2018–2019,
          Velvon Bank 2019–2020, Cubic Transportation Systems 2021–present]
@@ -155,7 +160,9 @@ domains: [payments, open-loop payments (EMV), instant payments,
           payment sovereignty (EPI/Wero), digital euro,
           product management, program management, AI governance,
           regulated-industry delivery, public-sector mobility, core banking]
-regulatory_context: [DORA, MaRisk, BAIT, BaFin, KWG, EU AI Act (Art. 14 human oversight),
+regulatory_context_delivered: [BaFin, KWG, MaRisk, BAIT, MiFID II, PSD2, gaming-license compliance,
+                               public-sector procurement, VDV standards]
+regulatory_context_advisory: [DORA, EU AI Act (Art. 14 human oversight),
                      ISO/IEC 42001, MiFID II, PSD2/PSD3/PSR, Verification of Payee,
                      Instant Payments Regulation, EPI, KRITIS, NIS2]
 leadership:
@@ -166,13 +173,15 @@ leadership:
            Deutschland-Ticket delivery governance, with no disciplinary line."
   portfolio: "Led delivery of a €5M+ B2G digital-mobility program end to end, as the
              single accountable owner between the transit-authority client and Cubic."
-  org_building: "Chartered to help establish Hamburg as Cubic's EMEA Technology
-                 Competence Center (2024 objectives); it operates today."
+  org_building: "The program's margin funded the build-out of Hamburg as Cubic's EMEA
+                 Technology Competence Center, which Cubic chartered me in the 2024
+                 objectives to help establish; it operates today."
 highlights:
   - "3M+ user public-transit platform turned around from 1.6 to 4.0 app-store stars
      through the Deutschland-Ticket national rollout, zero downtime"
   - "€2M+ in annual client renewals secured through sustained SLA compliance"
-  - "Audit-ready core banking on GCP under BaFin scrutiny for a banking-license acquisition"
+  - "Audit-ready core banking on GCP under BaFin scrutiny for a banking-license acquisition;
+     the parent stopped the launch in early 2020 before the bank opened"
   - "Chartered to help establish Hamburg as Cubic's EMEA Technology Competence Center (2024)"
   - "Authored the product organization's AI usage standard, approved by the CPO and in use today"
 credentials: [PSPO II, PSM I,
@@ -180,9 +189,9 @@ credentials: [PSPO II, PSM I,
               "Part-time lecturer in e-commerce and online payments, Dublin Business School (2009–2011)"]
 open_source:
   - "ai-workbench: file-first PM system run with an AI agent (github.com/maurice-jobst/ai-workbench)"
-  - "bembel-data: community datasets for Frankfurt, with entries and ratings as pull
-     requests and review rules enforced by CI (github.com/maurice-jobst/bembel-data);
-     v1.0 targeted March 2027"
+  - "bembel-data: datasets for Frankfurt designed for community contribution, with entries
+     and ratings as pull requests and review rules enforced by CI
+     (github.com/maurice-jobst/bembel-data); v1.0 targeted March 2027"
   - "BEMBEL: iPhone city app for Frankfurt/Rhein-Main, written by AI agents under human
      review (github.com/maurice-jobst/bembel); v1.0 targeted March 2027"
 building_toward: Principal-level product and leadership mandates. Payments leadership
