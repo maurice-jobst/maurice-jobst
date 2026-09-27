@@ -1,13 +1,13 @@
 # Open-loop payments, owned end to end
 
-*Cubic Transportation Systems, 2026–present · Senior Product Manager, Frankfurt, global remit. Umo Pass: open-loop transit payments from EMV acceptance at the validator to the account-based back office, with European Payments Initiative (EPI) integration.*
+*Cubic Transportation Systems, 2026–present · Senior Product Manager, Frankfurt, remote into a California product team. Umo Pass: open-loop transit payments from EMV acceptance at the validator to the account-based back office, live in the US, Canada and Oceania, with the European compliance layer in preparation.*
 *Client, vendor and commercial specifics are confidential. Everything below stays at architecture level, every fact is on my resume or in a named public source, and the fuller version is available in conversation.*
 
 ## The situation
 
 Transit fare collection is moving from proprietary hardware and closed-loop cards to software: account-based ticketing, where the card in your pocket or the phone in your hand is the ticket, and the system decides afterwards what the journey cost. It is one of those rare market shifts where the winning architecture is already known (the open procurements say so), and the question is who builds it well.
 
-My remit is the open-loop payments stack for the Umo platform, end to end: EMV acceptance at the validator, through authorisation and risk, to the account-based back office that aggregates taps into fares and settles them. Alongside it sits the European layer: integrating European Payments Initiative (EPI) digital identity, which is where transit acceptance meets European payment sovereignty. Negotiating with banks and payment service providers at technical and regulatory level, across the acceptance-to-settlement chain, is the day job.
+My remit is the open-loop payments stack for the Umo platform, end to end: EMV acceptance at the validator, through authorisation and risk, to the account-based back office that aggregates taps into fares and settles them. Alongside it sits the European layer. Umo is not in EMEA yet, and the compliance groundwork for its first European bids is mine: EU digital identity presented at the gate to prove eligibility, board and pay in one account-based flow, on rails shaped by the European Payments Initiative (EPI) and the sovereignty agenda behind it. Negotiating with banks and payment service providers at technical and regulatory level, across the acceptance-to-settlement chain, is the day job.
 
 ## Why a gate is the hardest point-of-sale in payments
 

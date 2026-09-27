@@ -5,7 +5,7 @@
 
 ## The situation
 
-A flagship German public-transit app sat at **1.6 app-store stars** inside a distressed **€5M+ B2G digital-mobility portfolio**. The public-sector client had lost confidence, and the user base said so in public, one star at a time.
+A flagship German public-transit app sat at **1.6 app-store stars** inside a distressed **€5M+ B2G digital-mobility program**. The public-sector client had lost confidence, and the user base said so in public, one star at a time.
 
 Then Germany announced the *Deutschland-Ticket*: a national fare product with a fixed, government-set launch date. The app that was failing its users now sat on the critical path of a political commitment.
 
@@ -22,6 +22,14 @@ So I fixed the operating model first, and the app second.
 - **Held the program to a sustained SLA regime**, rebuilding delivery credibility one kept commitment at a time.
 - **Carried the platform through the Deutschland-Ticket national rollout with zero downtime**, while the user base scaled past **3M+ active users**.
 
+## Decisions that were mine
+
+The operating model was the frame. Inside it, the calls that shaped the product were mine to make and defend:
+
+- **Sprint allocation between bugs, features and technical debt**, set per sprint against the rating trajectory rather than against whoever escalated last.
+- **Sprint goals and the contract negotiation behind them**: an agile delivery cadence inside the formal framework a public-sector contract and its funding require, with both sides holding.
+- **Which VDV requirements the product carried and which it argued out**, the visual inspection features for ticket checks among them, so the standard served the product rather than the reverse.
+
 ## On leading 20+ people I could not instruct
 
 None of those 20+ reported to me. They worked for the client, for the managed-service provider, and for partner organizations with their own priorities and their own bosses. I held no disciplinary line over any of them and no budget authority to buy compliance.
@@ -35,10 +43,10 @@ Any program crossing an organizational boundary hits this: a post-merger integra
 | Metric | Before | After |
 |---|---|---|
 | **App-store rating** | 1.6 ★ | **4.0 ★** |
-| **Client relationship** | distressed portfolio, renewals at risk | **€2M+ in annual renewals secured** |
+| **Client relationship** | distressed program, renewals at risk | **€2M+ in annual renewals secured** |
 | **National launch** | platform on the political critical path | shipped with zero downtime, 3M+ users |
 
-Users voted that rating change in public. The renewals followed sustained SLA compliance rather than a pitch. The launch carried national political weight and produced no incident anyone had to explain to a regulator or a journalist.
+The rating moved for two reasons, and I claim both: the product got better, and we asked for the rating at the right moment. After a successful trip calculation or ticket purchase the app asked whether the user was happy, and a happy user was invited to review it in the store. Ratings rose on both platforms within three months and hold near 4.0 today. The renewals followed sustained SLA compliance rather than a pitch. The launch carried national political weight and produced no incident anyone had to explain to a regulator or a journalist.
 
 ## Why it belongs next to the AI-governance thesis
 

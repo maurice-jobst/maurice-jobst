@@ -32,7 +32,7 @@ That speed comes from three costs I deleted. Each unit reuses one shape instead 
 
 The doctrine fits in one sentence: **AI at the edges, deterministic core.** The agent authors config, drafts documents, triages findings and proposes plans. It never sits inside a path that must be byte-reproducible: converge, deploy, secrets. A deterministic sweep audits the estate weekly with pure reads and structured output, so it cannot hallucinate a green light. The agent reasons about the findings afterward.
 
-Both kinds of operator get the same write rules. The mainline is push-protected, every change lands as a reviewable PR, and review runs in both directions: I review the agent's work, and the agent reviews mine. One category of sensitive personal records the model must never read at all, and that fence is a deny rule in the tool's permission layer instead of a sentence in a README.
+Both kinds of operator get the same write rules. The mainline is push-protected, every change lands as a reviewable PR, and review runs in both directions: I review the agent's work, and the agent reviews mine. Where a merge requires a co-signature, the agent's review can block it. The asymmetry is deliberate: I hold a break-glass path onto a host, and the agent holds none. Using it is not silent. The session shows in the host's logs as an authenticated connection with elevated rights, the repository still holds the declared state, and the next sweep flags the host as diverged and alerts until it is reconverged from source. Override is possible, instant, and on the record, which is what human oversight with authority means in practice. One category of sensitive personal records the model must never read at all, and that fence is a deny rule in the tool's permission layer instead of a sentence in a README.
 
 ## The generalizable part
 
@@ -52,3 +52,7 @@ The federation answers are the enterprise answers at a smaller scale:
 Drift is the primary enemy at any scale, in config, in docs or in policy, because it is one gap wearing different clothes: what the organization believes about itself against what is running.
 
 An operating model that depends on people remembering the doctrine will drift. Put the doctrine in a hub, dock the units through one landing path, and let a machine do the checking. Then the next unit, or the next agent, costs you a day.
+
+---
+
+*Related: [the Deutschland-Ticket turnaround](deutschland-ticket-turnaround.md) ran the same doctrine at organizational scale; [turning a banking act into engineering specifications](banking-act-to-specifications.md) applies it to a ledger.*
