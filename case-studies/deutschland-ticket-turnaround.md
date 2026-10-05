@@ -28,7 +28,6 @@ The operating model was the frame. Inside it, the calls that shaped the product 
 
 - **Sprint allocation between bugs, features and technical debt**, set per sprint against the rating trajectory rather than against whoever escalated last.
 - **Sprint goals and the contract negotiation behind them**: an agile delivery cadence inside the formal framework a public-sector contract and its funding require, with both sides holding.
-- **Which VDV requirements the product carried and which it argued out**, the visual inspection features for ticket checks among them, so the standard served the product rather than the reverse.
 
 ## On leading 20+ people I could not instruct
 
@@ -46,7 +45,7 @@ Any program crossing an organizational boundary hits this: a post-merger integra
 | **Client relationship** | distressed program, renewals at risk | **€2M+ in annual renewals secured** |
 | **National launch** | platform on the political critical path | shipped with zero downtime, 3M+ users |
 
-The rating moved for two reasons, and I claim both: the product got better, and we asked for the rating at the right moment. After a successful trip calculation or ticket purchase the app asked whether the user was happy, and a happy user was invited to review it in the store. Ratings rose on both platforms within three months and hold near 4.0 today. The renewals followed sustained SLA compliance rather than a pitch. The launch carried national political weight and produced no incident anyone had to explain to a regulator or a journalist.
+The rating moved for two reasons, and I claim both: the product got better, and we asked for the rating at the right moment. After a successful trip calculation or ticket purchase the app asked whether the user was happy, and a happy user was invited to review it in the store. Ratings rose on both platforms and hold near 4.0 today. The renewals followed sustained SLA compliance rather than a pitch. The launch carried national political weight and produced no incident anyone had to explain to a regulator or a journalist.
 
 ## Why it belongs next to the AI-governance thesis
 

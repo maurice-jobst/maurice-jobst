@@ -1,6 +1,6 @@
 # Turning a banking act into engineering specifications
 
-*Velvon Bank, 2019–2020 · Product Manager, Munich. Core banking on Google Cloud Platform, under BaFin scrutiny, for a German banking-license acquisition.*
+*Velvon Bank, 2019–2020 · Product Manager. Core banking on Google Cloud Platform, under BaFin scrutiny, for a German banking-license acquisition.*
 *Client and deal specifics are confidential. Everything below stays at architecture level, every fact is on my resume, and the fuller version is available in conversation.*
 
 ## The situation
@@ -39,7 +39,7 @@ No star rating, no renewal figure, and no audit. The parent stopped the German l
 
 ## Why it matters again now
 
-Payments is the deepest thread in my fifteen years: PayPal in Dublin, payment-gateway and gaming-license compliance at Tipico, multi-gateway integration under sub-second latency and failover requirements at Oddspedia, BaFin-supervised core banking here, and today European payment sovereignty at Cubic, integrating European Payments Initiative digital identity with account-centric transit fare payment.
+Payments is the deepest thread in my 15+ years: PayPal in Dublin, payment-gateway and gaming-license compliance at Tipico, multi-gateway integration under sub-second latency and failover requirements at Oddspedia, BaFin-supervised core banking here, and today open-loop transit payments at Cubic, with the compliance groundwork for EU digital identity at the gate next to account-based fare payment.
 
 The same translation problem is arriving again, at scale, on a published timetable. PSD3 and the Payment Services Regulation reached final compromise texts in April 2026, with application expected around 2028 and the Verification of Payee extension roughly six months behind it. Verification of Payee has been mandatory for euro instant credit transfers since October 2025. The digital euro pilot phase begins staffing now. Every payment service provider in the EU is about to turn several hundred pages of regulation into systems that examiners will test.
 

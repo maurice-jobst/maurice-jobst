@@ -25,7 +25,7 @@ Walk through one declined tap, because every architectural decision in open-loop
 
 ## What this case study cannot show you
 
-Published outcome numbers: the remit is months old, and I do not manufacture percentages. The scope and the architecture are the claim here. The numbers live next door: the [Deutschland-Ticket turnaround](deutschland-ticket-turnaround.md) on the same platform carries 3M+ users, a 1.6 → 4.0 app-store rating, and €2M+ in annual renewals.
+Published outcome numbers: the remit is months old, and I do not manufacture percentages. The scope and the architecture are the claim here. The numbers live next door: the [Deutschland-Ticket turnaround](deutschland-ticket-turnaround.md), my earlier program at Cubic, carries 3M+ users, a 1.6 → 4.0 app-store rating, and €2M+ in annual renewals.
 
 ## Why this seat matters
 

@@ -21,14 +21,14 @@
 
 ---
 
-I have spent 15+ years in payments, fintech, cybersecurity and public-sector mobility. Payments is the deepest thread: PayPal, gaming-payments compliance, multi-gateway platforms, BaFin-supervised core banking, and today open-loop transit payments owned end to end, with European payment sovereignty (EPI).
+I have spent 15+ years in payments, fintech, cybersecurity and public-sector mobility. Payments is the deepest thread: PayPal, gaming-payments compliance, multi-gateway platforms, BaFin-supervised core banking, and today open-loop transit payments owned end to end.
 
 I run one doctrine across all of it: **AI at the edges, deterministic core.** I practice it every day in a production-grade lab I own, and I am building toward **Principal-level mandates** where payments and AI governance meet regulated delivery.
 
 ## 💼 Now
 
 **Senior Product Manager, Cubic Transportation Systems** (2026–present, at Cubic since 2021)
-Umo Pass, open-loop payments owned end to end for the US, Canada and Oceania, from EMV acceptance at the validator to the account-based back office, working remotely into a California product team. Umo is not in EMEA yet: I own the compliance groundwork for its first European bids, where EU digital identity at the gate (eligibility, boarding, payment) meets account-based ticketing and European payment sovereignty (EPI). Authored the product organization's AI usage standard, approved by the CPO and in use today.
+Umo Pass, open-loop payments owned end to end for the US, Canada and Oceania, from EMV acceptance at the validator to the account-based back office, working remotely into a California product team. Umo is not in EMEA yet: I own the compliance groundwork for its first European bids, where EU digital identity at the gate (eligibility, boarding, payment) meets account-based ticketing and European payment sovereignty (EPI). Authored the product organization's AI usage standard, in use today.
 
 📄 **[Open-loop payments case study →](case-studies/open-loop-payments-end-to-end.md)**
 
@@ -36,14 +36,15 @@ Umo Pass, open-loop payments owned end to end for the US, Canada and Oceania, fr
 
 ```mermaid
 flowchart LR
-    A["2007–2015<br/>PayPal · Tipico · Avira<br/>payments ops, licensing<br/>compliance, consumer security"]
-    B["2016–2019<br/>DXC · Oddspedia<br/>PMO in Tier-1 bank modernization,<br/>then Head of Product"]
+    A["2007–2016<br/>PayPal · Tipico · Avira · TouchCommerce<br/>payments ops, licensing<br/>compliance, consumer security"]
+    B["2016–2019<br/>DXC · Innopay · Oddspedia<br/>PMO on a Tier-1 bank's<br/>MiFID II programme,<br/>payments consulting,<br/>then Head of Product"]
     C["2019–2020<br/>Velvon Bank<br/>BaFin-supervised core<br/>banking on GCP"]
+    F["2020–2021<br/>1&1 IONOS<br/>Product Owner (interim)"]
     D["2021–2026<br/>Cubic<br/>3M+ user transit platform<br/>1.6 to 4.0 stars"]
-    E(["2026 onward<br/>EPI payment sovereignty<br/>x AI governance"])
+    E(["2026 onward<br/>open-loop payments<br/>x AI governance"])
     L["The lab<br/>AI at the edges,<br/>deterministic core"]
 
-    A --> B --> C --> D --> E
+    A --> B --> C --> F --> D --> E
     L -.-> E
 ```
 
@@ -51,7 +52,7 @@ flowchart LR
 
 I took a **3M+ user** public-transit platform from **1.6 to 4.0 app-store stars** and carried it through Germany's politically charged *Deutschland-Ticket* national rollout with zero downtime. The client renewed **€2M+ a year** after I held the program to a sustained SLA regime.
 
-I led **20+ people across vendors and partner organizations** through that delivery governance, holding no disciplinary line over any of them. The program ran cash-positive, and its margin funded the build-out of **Hamburg as Cubic's EMEA Technology Competence Center**, which Cubic chartered me in the 2024 objectives to help establish. It runs today.
+I led **20+ people across vendors and partner organizations** through that delivery governance, holding no disciplinary line over any of them. Cubic chartered me in the 2024 objectives to help establish **Hamburg as its EMEA Technology Competence Center**. It runs today.
 
 📄 **[Delivery-governance case study →](case-studies/deutschland-ticket-turnaround.md)**
 
@@ -62,18 +63,18 @@ I turned KWG requirements into deterministic engineering specifications for audi
 📄 **[Payments case study: turning a banking act into engineering specifications →](case-studies/banking-act-to-specifications.md)**
 
 <details>
-<summary><b>📚 Earlier roles (2007–2019), the two gaps, and credentials</b></summary>
+<summary><b>📚 Earlier roles (2007–2021) and credentials</b></summary>
 
 <br>
 
 | Where | What |
 |---|---|
-| 2020–2021 | Pause during COVID, after the Velvon project was stopped |
+| **1&1 IONOS** (2020–2021) | Product Owner (interim) |
 | **Oddspedia** (2018–2019) | Head of Product Management. Owned the whole product function, 7–10 across product, design and engineering, reporting to C-level |
-| **DXC Technology** (2016–2018) | PMO officer and assistant to the director on MiFID II-era core modernization for Tier-1 German banks |
-| 2015–2016 | Sabbatical |
-| **TouchCommerce** (2014–2015) | Customer Success Manager, enterprise DACH accounts, a two-person German office serving Vodafone, Sky and Sunrise |
-| **Avira** (2012–2014) | Consumer-security delivery |
+| **Innopay** (2017) | Management Consultant. Payments and open-banking strategy consulting for German banks in the PSD2 run-up |
+| **DXC Technology** (2016–2017) | PMO on a Tier-1 bank's MiFID II programme |
+| **TouchCommerce** (2014–2016) | Customer Success Manager, enterprise DACH accounts, a two-person German office serving Vodafone, Sky and Sunrise |
+| **Avira** (2012–2013) | Consumer-security delivery |
 | **Tipico** (2010–2012) | Payment and licensing compliance |
 | **PayPal, Dublin** (2007–2010) | Payments operations |
 
@@ -134,7 +135,7 @@ The EU AI Act names the half of this I care most about. Article 14 requires, for
 | ☁️ **Regulated Cloud** | GCP under supervision · GitOps · Infrastructure-as-Code |
 | 🧭 **Leadership** | Whole product function, 7–10 reporting to C-level · 20+ across vendors and partner organizations · €5M+ B2G program · distressed-program turnaround |
 
-**Delivered under:** KWG and BaFin supervision, MaRisk / BAIT, MiFID II-era bank modernization, gaming-license and payment compliance, PSD2, public-sector procurement and VDV standards.
+**Delivered under:** KWG and BaFin supervision, a Tier-1 bank's MiFID II programme (PMO), gaming-license and payment compliance, PSD2 and public-sector procurement.
 **Advisory and bid work, not yet delivery:** DORA, KRITIS / NIS2, Instant Payments Regulation, Verification of Payee, digital euro, EU AI Act and ISO/IEC 42001, for transit authorities in Germany, the UK and Ireland, Cubic internally, and bids in three further markets.
 
 <details>
@@ -153,17 +154,17 @@ current_role: Senior Product Manager, Cubic Transportation Systems (2026–prese
 experience_years: 15+
 open_to: "Employed. Open to Principal-level product and leadership mandates, employed or
           freelance: Head of Product, Head of Payments, practice build-out"
-career: [PayPal 2007–2010, Tipico 2010–2012, Avira 2012–2014, TouchCommerce (later Nuance) 2014–2015,
-         DXC Technology 2016–2018, Oddspedia (Head of Product) 2018–2019,
-         Velvon Bank 2019–2020, Cubic Transportation Systems 2021–present]
+career: [PayPal 2007–2010, Tipico 2010–2012, Avira 2012–2013, TouchCommerce (later Nuance) 2014–2016,
+         DXC Technology 2016–2017, Innopay 2017, Oddspedia (Head of Product) 2018–2019,
+         Velvon Bank 2019–2020, 1&1 IONOS 2020–2021, Cubic Transportation Systems 2021–present]
 domains: [payments, open-loop payments (EMV), instant payments,
           payment sovereignty (EPI/Wero), digital euro,
           product management, program management, AI governance,
           regulated-industry delivery, public-sector mobility, core banking]
-regulatory_context_delivered: [BaFin, KWG, MaRisk, BAIT, MiFID II, PSD2, gaming-license compliance,
-                               public-sector procurement, VDV standards]
+regulatory_context_delivered: [BaFin, KWG, MiFID II (PMO), PSD2, gaming-license compliance,
+                               public-sector procurement]
 regulatory_context_advisory: [DORA, EU AI Act (Art. 14 human oversight),
-                     ISO/IEC 42001, MiFID II, PSD2/PSD3/PSR, Verification of Payee,
+                     ISO/IEC 42001, PSD3/PSR, Verification of Payee,
                      Instant Payments Regulation, EPI, KRITIS, NIS2]
 leadership:
   direct_reports: "Head of Product Management, Oddspedia 2018–2019: owned the company's
@@ -171,11 +172,9 @@ leadership:
                    engineering, reporting to C-level, including hiring and exits."
   matrix: "Led 20+ people across vendors and partner organizations through the
            Deutschland-Ticket delivery governance, with no disciplinary line."
-  portfolio: "Led delivery of a €5M+ B2G digital-mobility program end to end, as the
-             single accountable owner between the transit-authority client and Cubic."
-  org_building: "The program's margin funded the build-out of Hamburg as Cubic's EMEA
-                 Technology Competence Center, which Cubic chartered me in the 2024
-                 objectives to help establish; it operates today."
+  portfolio: "Led delivery of a €5M+ B2G digital-mobility program end to end."
+  org_building: "Cubic chartered me in the 2024 objectives to help establish Hamburg as
+                 its EMEA Technology Competence Center; it operates today."
 highlights:
   - "3M+ user public-transit platform turned around from 1.6 to 4.0 app-store stars
      through the Deutschland-Ticket national rollout, zero downtime"
@@ -183,7 +182,7 @@ highlights:
   - "Audit-ready core banking on GCP under BaFin scrutiny for a banking-license acquisition;
      the parent stopped the launch in early 2020 before the bank opened"
   - "Chartered to help establish Hamburg as Cubic's EMEA Technology Competence Center (2024)"
-  - "Authored the product organization's AI usage standard, approved by the CPO and in use today"
+  - "Authored the product organization's AI usage standard, in use today"
 credentials: [PSPO II, PSM I,
               "Executive MBA program, Postgraduate Certificate (Dublin Business School)",
               "Part-time lecturer in e-commerce and online payments, Dublin Business School (2009–2011)"]

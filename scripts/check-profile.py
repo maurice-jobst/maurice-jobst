@@ -33,12 +33,11 @@ FACTS: list[tuple[str, list[str]]] = [
     ("€5M+ B2G", ["README.md", "case-studies/deutschland-ticket-turnaround.md"]),
     ("US, Canada and Oceania", ["README.md", "case-studies/open-loop-payments-end-to-end.md"]),
     ("not in EMEA yet", ["README.md", "case-studies/open-loop-payments-end-to-end.md"]),
-    ("approved by the CPO", ["README.md"]),
     ("v1.0 is targeted for March 2027", ["README.md"]),
     ("stopped the German launch in early 2020", ["README.md", "case-studies/banking-act-to-specifications.md"]),
     ("employed or freelance", ["README.md"]),
-    ("Sabbatical", ["README.md"]),
-    ("Pause during COVID", ["README.md"]),
+    ("TouchCommerce** (2014–2016)", ["README.md"]),
+    ("1&1 IONOS", ["README.md"]),
 ]
 
 # Phrases that drifted once and must not come back. Pair each with the reason.
@@ -51,10 +50,16 @@ FORBIDDEN: list[tuple[str, str]] = [
     ("hidden instructions", "reads as a tell to screening tools and adds nothing for people"),
     ("Not on the market", "open to mandates, employed or freelance; the old line blocked both"),
     ("$215M", "the Nuance acquisition happened after the role ended"),
-    ("PMO advisor", "the role was PMO officer and assistant to the director"),
+    ("PMO advisor", "the role is PMO on a Tier-1 bank's MiFID II programme"),
+    ("Tier-1 German banks", "DXC was one Tier-1 bank's programme, not several banks"),
+    ("bank modernization", "DXC was PMO on a MiFID II programme, not a modernization remit"),
     ("Users voted that rating change", "the rating followed product fixes and a well-timed review prompt; say so"),
     ("refute-prompted votes", "say what cast the votes and who reviewed them"),
+    ("Sabbatical", "TouchCommerce ran into 2016; there was no sabbatical"),
     ("community layer", "no second contributor yet; it is a data layer designed for community"),
+    ("approved by the CPO", "the Resume says the standard is in use, not who approved it"),
+    ("cash-positive", "the Resume does not carry a margin claim for the program"),
+    ("single accountable owner", "the Resume says led delivery, not sole accountability"),
 ]
 
 # YAML keys whose value must contain a phrase that also appears in the README prose.
@@ -112,7 +117,7 @@ def check_facts() -> None:
     for f in md_files():
         text = f.read_text(encoding="utf-8")
         for phrase, why in FORBIDDEN:
-            if phrase in text:
+            if phrase.lower() in text.lower():
                 finding(f"{rel(f)}: drifted phrase present: {phrase!r} ({why})")
 
 
