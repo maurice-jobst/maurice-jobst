@@ -9,7 +9,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/mauricejobst/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-mauricejobst-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:maurice.jobst@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-maurice.jobst-24292f?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://github.com/maurice-jobst/ai-workbench"><img alt="ai-workbench" src="https://img.shields.io/badge/Showcase-ai--workbench-1f6feb?style=for-the-badge&logo=github&logoColor=white"></a>
   <a href="https://maurice-jobst.github.io/"><img alt="Profile site" src="https://img.shields.io/badge/Site-maurice--jobst.github.io-0d1117?style=for-the-badge&logo=githubpages&logoColor=white"></a>
 </p>
 
@@ -112,12 +111,12 @@ I run my household's infrastructure estate the way a regulated hub-and-spoke org
 📄 **[Case study: running an infrastructure estate like a regulated hub-and-spoke organization →](case-studies/hub-and-spoke-estate.md)**
 
 > [!TIP]
-> **Featured: [ai-workbench](https://github.com/maurice-jobst/ai-workbench)**, the file-first system I run my PM work on with an AI agent.
-> Markdown holds the state, a script catches drift at every session start, and every unverified claim carries the name of the person who has to confirm it. I checked the design against **23 published sources**: for each load-bearing claim, a local, air-gapped model was prompted three times to refute it against a retrieval index of the rules, I reviewed every verdict, and the repo publishes the **2 claims that lost**.
+> **Past work: ai-workbench**, the file-first system I built to run my PM work with an AI agent.
+> Markdown holds the state, a script catches drift at every session start, and every unverified claim carries the name of the person who has to confirm it. I checked the design against **23 published sources**: for each load-bearing claim, a local, air-gapped model was prompted three times to refute it against a retrieval index of the rules, I reviewed every verdict, and the evidence base recorded the **2 claims that lost** next to the ones that held.
 
 > [!TIP]
-> **New: [BEMBEL](https://github.com/maurice-jobst/bembel)**, a free iPhone city app for Frankfurt / Rhein-Main (shade, water, air: open data made usable), which I lead as PM and architect with a three-person engineering team. It applies the doctrine to full product delivery: AI agents write the implementation, a human reviews every pull request, and CI holds the format, schema and data-provenance gates.
-> Its data layer, **[bembel-data](https://github.com/maurice-jobst/bembel-data)**, is designed to carry Frankfurt kiosk culture as pull requests: every entry cites a source, and each account gets one rating per entry because a CI check rejects any pull request touching a rating file named for someone else, maintainers included. That review governance is two standard-library Python scripts and the git history, with no server and no moderation queue behind it. The community is not there yet; the rules are, and they are public. Both repositories are public; v1.0 is targeted for March 2027.
+> **Past work: BEMBEL**, a free iPhone city app for Frankfurt / Rhein-Main (shade, water, air: open data made usable), which I led as PM and architect with a three-person engineering team. It applied the doctrine to full product delivery: AI agents write the implementation, a human reviews every pull request, and CI holds the format, schema and data-provenance gates.
+> Its data layer, **bembel-data**, was designed to carry Frankfurt kiosk culture as pull requests: every entry cites a source, and each account gets one rating per entry because a CI check rejects any pull request touching a rating file named for someone else, maintainers included. That review governance is two standard-library Python scripts and the git history, with no server and no moderation queue behind it. The community never formed; the rules did. Both repositories are archived and private now.
 
 ## 🧭 Where this is going
 
@@ -186,13 +185,12 @@ highlights:
 credentials: [PSPO II, PSM I,
               "Executive MBA program, Postgraduate Certificate (Dublin Business School)",
               "Part-time lecturer in e-commerce and online payments, Dublin Business School (2009–2011)"]
-open_source:
-  - "ai-workbench: file-first PM system run with an AI agent (github.com/maurice-jobst/ai-workbench)"
-  - "bembel-data: datasets for Frankfurt designed for community contribution, with entries
-     and ratings as pull requests and review rules enforced by CI
-     (github.com/maurice-jobst/bembel-data); v1.0 targeted March 2027"
-  - "BEMBEL: iPhone city app for Frankfurt/Rhein-Main, written by AI agents under human
-     review (github.com/maurice-jobst/bembel); v1.0 targeted March 2027"
+past_work:
+  - "ai-workbench (archived, private): file-first PM system built to run with an AI agent"
+  - "bembel-data (archived, private): datasets for Frankfurt designed for community contribution,
+     with entries and ratings as pull requests and review rules enforced by CI"
+  - "BEMBEL (archived, private): iPhone city app for Frankfurt/Rhein-Main, written by AI agents
+     under human review"
 building_toward: Principal-level product and leadership mandates. Payments leadership
                  and AI governance in regulated-industry delivery. Frankfurt / Rhein-Main.
 contact: {linkedin: "https://www.linkedin.com/in/mauricejobst/", email: "maurice.jobst@gmail.com",
