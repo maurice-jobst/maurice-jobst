@@ -33,7 +33,6 @@ FACTS: list[tuple[str, list[str]]] = [
     ("€5M+ B2G", ["README.md", "case-studies/deutschland-ticket-turnaround.md"]),
     ("US, Canada and Oceania", ["README.md", "case-studies/open-loop-payments-end-to-end.md"]),
     ("not in EMEA yet", ["README.md", "case-studies/open-loop-payments-end-to-end.md"]),
-    ("v1.0 is targeted for March 2027", ["README.md"]),
     ("stopped the German launch in early 2020", ["README.md", "case-studies/banking-act-to-specifications.md"]),
     ("employed or freelance", ["README.md"]),
     ("TouchCommerce** (2014–2016)", ["README.md"]),
