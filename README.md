@@ -13,16 +13,16 @@
 </p>
 
 <p align="center">
-  <b>I translate regulatory mandates into shipped systems.</b><br>
+  <b>I build payment products for public transport, and I keep AI on a short leash 💳🤖</b><br>
   📍 Frankfurt am Main · Rhein-Main · Germany-wide hybrid · 🗣️ German and English, both at native level<br>
   💬 Employed, and open to Principal-level mandates in payments leadership and AI governance, employed or freelance
 </p>
 
 ---
 
-I have spent 15+ years in payments, fintech, cybersecurity and public-sector mobility. Payments is the deepest thread: PayPal, gaming-payments compliance, multi-gateway platforms, BaFin-supervised core banking, and today open-loop transit payments owned end to end.
+15+ years in payments, fintech, cybersecurity and public-sector mobility, and payments runs through all of it: PayPal in Dublin, gaming-payments compliance, multi-gateway platforms, core banking under BaFin, and today open-loop transit payments, which I own end to end.
 
-I run one doctrine across all of it: **AI at the edges, deterministic core.** I practice it every day in a production-grade lab I own, and I am building toward **Principal-level mandates** where payments and AI governance meet regulated delivery.
+One rule runs through how I work: **AI at the edges, deterministic core.** AI drafts and sorts; a named human signs off. I practise it every day in a small lab at home 🧪, and I'm working toward **Principal-level mandates** where payments and AI governance meet regulated delivery.
 
 ## 💼 Now
 
@@ -110,19 +110,13 @@ I run my household's infrastructure estate the way a regulated hub-and-spoke org
 
 📄 **[Case study: running an infrastructure estate like a regulated hub-and-spoke organization →](case-studies/hub-and-spoke-estate.md)**
 
-> [!TIP]
-> **Past work: ai-workbench**, the file-first system I built to run my PM work with an AI agent.
-> Markdown holds the state, a script catches drift at every session start, and every unverified claim carries the name of the person who has to confirm it. I checked the design against **23 published sources**: for each load-bearing claim, a local, air-gapped model was prompted three times to refute it against a retrieval index of the rules, I reviewed every verdict, and the evidence base recorded the **2 claims that lost** next to the ones that held.
-
-> [!TIP]
-> **Past work: BEMBEL**, a free iPhone city app for Frankfurt / Rhein-Main (shade, water, air: open data made usable), which I led as PM and architect with a three-person engineering team. It applied the doctrine to full product delivery: AI agents write the implementation, a human reviews every pull request, and CI holds the format, schema and data-provenance gates.
-> Its data layer, **bembel-data**, was designed to carry Frankfurt kiosk culture as pull requests: every entry cites a source, and each account gets one rating per entry because a CI check rejects any pull request touching a rating file named for someone else, maintainers included. That review governance is two standard-library Python scripts and the git history, with no server and no moderation queue behind it. The community never formed; the rules did. Both repositories are archived and private now.
+Before the estate, the same doctrine ran two projects, both archived and private now: **ai-workbench**, a file-first system for running PM work with an AI agent, and **BEMBEL**, a free iPhone city app for Frankfurt / Rhein-Main whose code AI agents wrote under human review of every pull request.
 
 ## 🧭 Where this is going
 
-Regulators already ask organizations to *prove the operation matches its own policy*. Put AI in the delivery path and that question gets harder to answer: you need auditable decision paths, a deterministic core wherever reproducibility is non-negotiable, and drift control that fires without a human trigger.
+Regulators already ask companies to prove they run the way their own policies say. Put AI in the delivery path and that gets harder. You need decisions you can trace, a deterministic core where results must be reproducible, and drift alerts that fire without anyone pressing a button.
 
-The EU AI Act names the half of this I care most about. Article 14 requires, for high-risk systems, human oversight that works: people with the authority and the information to override a system. Nothing I run today falls under that article. I apply its standard anyway, because the mandate reaches regulated delivery before the law does: "AI at the edges, deterministic core" is my implementation of that sentence, and ISO/IEC 42001 is where an auditor would test it. I want to be the person making those calls, and I already work this way.
+Article 14 of the EU AI Act asks for human oversight that works: people with the authority and the information to override a system. Nothing I run today falls under it 🙂 I apply the standard anyway, and ISO/IEC 42001 is where an auditor would test it. That's the work I want to do next.
 
 ## 🎯 Domain focus
 
