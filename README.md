@@ -6,7 +6,8 @@
   </picture>
 </p>
 
-I'm a Senior Product Manager in Frankfurt am Main, and I work on payment products for public transport 💳 You tap your bank card at the gate, and I look after what happens between that tap and the money settling: EMV acceptance at the validator, the account-based back office, and the banks and PSPs in between.
+I'm a Senior Product Manager in Frankfurt am Main, and I work on payment products for public transport 
+💳 You tap your bank card at the gate, and I look after what happens between that tap and the money settling: EMV acceptance at the validator, the account-based back office, and the banks and PSPs in between.
 
 **Senior Product Manager, Cubic Transportation Systems** (2026–present, at Cubic since 2021) · 📍 Rhein-Main · 🗣️ German and English
 
