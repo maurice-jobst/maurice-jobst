@@ -34,7 +34,7 @@ FACTS: list[tuple[str, list[str]]] = [
     ("US, Canada and Oceania", ["README.md", "case-studies/open-loop-payments-end-to-end.md"]),
     ("not in EMEA yet", ["README.md", "case-studies/open-loop-payments-end-to-end.md"]),
     ("stopped the German launch in early 2020", ["README.md", "case-studies/banking-act-to-specifications.md"]),
-    ("employed or freelance", ["README.md"]),
+    ("Principal-level role, Head of Product or Head of Payments", ["README.md"]),
     ("TouchCommerce** (2014–2016)", ["README.md"]),
     ("1&1 IONOS", ["README.md"]),
 ]
@@ -47,7 +47,7 @@ FORBIDDEN: list[tuple[str, str]] = [
     ("Directed a €5M+", "led delivery of a program; did not direct a portfolio"),
     ("EPI) digital-identity", "the identity layer is EU digital identity, EPI is the payment rail"),
     ("hidden instructions", "reads as a tell to screening tools and adds nothing for people"),
-    ("Not on the market", "open to mandates, employed or freelance; the old line blocked both"),
+    ("Not on the market", "employed and open to a Principal-level role; the old line blocked that"),
     ("$215M", "the Nuance acquisition happened after the role ended"),
     ("PMO advisor", "the role is PMO on a Tier-1 bank's MiFID II programme"),
     ("Tier-1 German banks", "DXC was one Tier-1 bank's programme, not several banks"),
