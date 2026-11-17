@@ -24,9 +24,9 @@ None of it was solo work. The teams built it.
 
 ## What I work with
 
-💳 **Payments:** open-loop EMV, Instant Payments, EPI/Wero, PSD2/PSD3/PSR, account-based ticketing
-🤖 **AI governance:** EU AI Act, ISO/IEC 42001
-🛡️ **Regulation:** DORA, MaRisk/BAIT, BaFin, KWG, MiFID II, and one rank down KRITIS/NIS2
+- 💳 **Payments:** open-loop EMV, Instant Payments, EPI/Wero, PSD2/PSD3/PSR, account-based ticketing
+- 🤖 **AI governance:** EU AI Act, ISO/IEC 42001
+- 🛡️ **Regulation:** DORA, MaRisk/BAIT, BaFin, KWG, MiFID II, and one rank down KRITIS/NIS2
 
 I have delivered under KWG and BaFin supervision, a Tier-1 bank's MiFID II programme (PMO), gaming-license and payment compliance, PSD2 and public-sector procurement. DORA, KRITIS/NIS2, the EU AI Act and ISO/IEC 42001 are advisory and bid work so far.
 
